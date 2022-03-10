@@ -1,44 +1,36 @@
-Fabrica Trust Agreement
+# Fabrica Trust Agreement
 
- 
+​	This Trust Agreement (“Agreement”) for the {trustName} (this “Trust”) is entered into via execution of a Token Mint by the Grantor on the Fabrica Smart Contract. The Trust Name, Creation Date, and other Trust identifiers and Agreement for this Agreement are available in the metadata to the Digital Title token to which this Agreement has been linked[, and can be found via execution of the Get Data call on the contract].
 
-\1.   Opening statement
+#### \1.   Trust Purpose
 
-a.   This Trust Agreement (“Agreement”) for the [serialized] Fabrica Trust (this “Trust”) is entered into through a Token Mint by the Grantor. The Trust Name, Creation Date, and other Trust identifiers and Agreement are found in the [function/NFT] to which this Agreement has been linked.
+a.   The purpose of the trust is to is to create and maintain a link between ownership of the Property and the open-source, public, blockchain-based distributed computing platform known as the Ethereum Mainnet Blockchain (“**Ethereum**”), so as to allow for the time efficient, cost effective, accurate, and secure ownership, transfer, use and enjoyment of real property title in the digital environment. On creation, the Trust will take and hold title to the Property, and ownership of the Trust will be represented by ownership of the Digital Title. Regardless of the sale, hypothecation, or other transfer of the Digital Title, title to the Property will remain in the Trust until such time as the rightful owner of the Digital Title executes the Burn function and removes the property from the Trust.
 
-b.   **Trying to figure out best way to state along the lines: this trust agreement is effective when the function related to the trust being created is called (not sure if that’s mint or a post mint function)**
+b.   The owner of the wallet holding the NFT shall be the beneficial owner of the trust, and have the right to name the trustee [again, via a function in the contract?]. All rights and obligations in this agreement shall at all times be linked to the holder of the NFT, such that rightful possession of the NFT gives the holder [full and total] beneficial ownership.
 
-\2.   Trust Purpose
-
-a.   The purpose of the trust is to hold title to the trust property. The owner of the wallet holding the NFT shall be the beneficial owner of the trust, and have the right to name the trustee [again, via a function in the contract?]
-
-b.   All rights and obligations in this agreement shall at all times be linked to the holder of the NFT, such that rightful possession of the NFT gives the holder [full and total] beneficial ownership.
-
-\3.   Token Contract
+#### \2.   Token Contract
 
 a.   Definitions:
 
-​                        i.   Blockchain/Ethereum
+​                        i.   "Blockchain/Ethereum" means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum on the Effective Date.
 
-\1.   Ex. "Ethereum" means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum on the Effective Date.
+"Address/wallet" means a public key address on Ethereum.
 
-​                       ii.   Address/wallet
+"Fabrica Smart Contract" means the bytecode stored at the Address {fabricaSmartContractAddress} on Ethereum. This Address shall be referred to as the "Fabrica Smart Contract Address."
 
-\1.   Ex. "Address" means a public key address on Ethereum.
+"Token ID" means the value of the `tokenId` field stored in the mapping type `ownerOf` in the contract type `Fabrica Smart Contract` deployed to the Fabrica Smart Contract Address. 
 
-​                      iii.   Token ID
+"Token Mint" means a confirmed transaction with the `mintToken` function of the 
 
-​                      iv.   Token Mint
+"Transfer"
 
-​                       v.   Transfer
+"Token Revocation/Burn"
 
-​                      vi.   Token Revocation/Burn
+[Confirmed transaction]
 
-​                      vii.   [Confirmed transaction]
+[Consensus rules]
 
-​                     viii.   [Consensus rules]
-
-​                      ix.   [token updates]
+[token updates]
 
 b.   The NFT is minted via the Fabrica Smart Contract, and ownership records are maintained there
 
