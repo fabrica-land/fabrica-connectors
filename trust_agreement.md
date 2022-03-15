@@ -1,36 +1,28 @@
 # Fabrica Trust Agreement
 
-​	This Trust Agreement (“Agreement”) for the {trustName} (this “Trust”) is entered into via execution of a Token Mint by the Grantor on the Fabrica Smart Contract. The Trust Name, Creation Date, and other Trust identifiers and Agreement for this Agreement are available in the metadata to the Digital Title token to which this Agreement has been linked[, and can be found via execution of the Get Data call on the contract].
+This Trust Agreement (*“Agreement”*) is entered into via issuing a Digital Asset (*"NFT"*) through the `mint()` function on the Fabrica Smart Contract (*"Smart Contract"*) by the Grantor using their private key on the Ethereum Blockchain. The Trust Name, Agreement and other identifiers are available in the metadata linked to the NFT that can be retrieved by calling the function `tokenURI()` of the Smart Contract.
 
-#### \1.   Trust Purpose
+## 1. Trust Purpose ##
 
-a.   The purpose of the trust is to is to create and maintain a link between ownership of the Property and the open-source, public, blockchain-based distributed computing platform known as the Ethereum Mainnet Blockchain (“**Ethereum**”), so as to allow for the time efficient, cost effective, accurate, and secure ownership, transfer, use and enjoyment of real property title in the digital environment. On creation, the Trust will take and hold title to the Property, and ownership of the Trust will be represented by ownership of the Digital Title. Regardless of the sale, hypothecation, or other transfer of the Digital Title, title to the Property will remain in the Trust until such time as the rightful owner of the Digital Title executes the Burn function and removes the property from the Trust.
+1. The purpose of the trust is to is to create and maintain a link between ownership of the Property and its digital representation as a Digital Asset (*"NFT"*) on the Ethereum Blockchain, so as to allow for the time efficient, cost effective, accurate, and secure ownership, transfer, use and enjoyment of real property title in the digital environment. On creation, the Trust will take and hold title to the Property, and ownership of the Trust will be represented by ownership of the NFT. Regardless of the sale, hypothecation, or other transfer of the Digital Title, title to the Property will remain in the Trust until such time as the rightful owner of the NFT executes the `burn` function and removes the property from the Trust.
+2. The owner(s) of the wallet holding the NFT shall be the beneficial owner(s) of the trust, and have the right to name the trustee. All rights and obligations in this agreement shall at all times be linked to the holder of the NFT, such that rightful possession of the NFT gives the holder full and total beneficial ownership.
 
-b.   The owner of the wallet holding the NFT shall be the beneficial owner of the trust, and have the right to name the trustee [again, via a function in the contract?]. All rights and obligations in this agreement shall at all times be linked to the holder of the NFT, such that rightful possession of the NFT gives the holder [full and total] beneficial ownership.
+## 2. Smart Contract ##
 
-#### \2.   Token Contract
+1. Definitions:
+   1. *"Blockchain / Ethereum"* means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum on the Effective Date.
+   2. *"Address / wallet"* means a public key address on Ethereum.
+   3. *"Smart Contract"* means the bytecode deployed on Ethereum used to maintain records of ownership of the NFT, to which this Agreement is attached.
+   4. *"Token ID"* means the value returned by the `mint()` function, used to uniquely identify a newly issued NFT.
+   5. *"Transfer"* means any operation performed thorugh the Smart Contract that assigns the NFT to a new Address.
+   6. *"Burn"* means any operation performed using the Smart Contract that results in the removal of the association between a Token Id and an Address, effectively destroying the NFT.
+   7. [Confirmed transaction] --> good idea to define it well, more importantly in the context of legal consequence of a function. Probably the execution of any operation (Such as "mint") should be considered effective only after a certain number of confirmations?
+   8. [Consensus rules] --> not sure we need it
+   9. [token updates] --> not sure we need it
 
-a.   Definitions:
 
-​                        i.   "Blockchain/Ethereum" means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum on the Effective Date.
 
-"Address/wallet" means a public key address on Ethereum.
 
-"Fabrica Smart Contract" means the bytecode stored at the Address {fabricaSmartContractAddress} on Ethereum. This Address shall be referred to as the "Fabrica Smart Contract Address."
-
-"Token ID" means the value of the `tokenId` field stored in the mapping type `ownerOf` in the contract type `Fabrica Smart Contract` deployed to the Fabrica Smart Contract Address. 
-
-"Token Mint" means a confirmed transaction with the `mintToken` function of the 
-
-"Transfer"
-
-"Token Revocation/Burn"
-
-[Confirmed transaction]
-
-[Consensus rules]
-
-[token updates]
 
 b.   The NFT is minted via the Fabrica Smart Contract, and ownership records are maintained there
 
