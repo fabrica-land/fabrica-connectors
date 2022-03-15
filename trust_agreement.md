@@ -4,12 +4,12 @@ This Trust Agreement (*“Agreement”*) is entered into via issuing a Digital A
 
 ## Recitals
 
-- *Whereas* the grantor, trustee and beneficial owners want to digitize the title of the property to benefit from fully digital operations
-- *Whereas* blockchain smart contracts allow for a secure and interoperable way of tracking ownership of digital assets via the use of an electronic legdger to immutably track, document and verify all transactions
-- *Whereas* the parties agree to accept digital signature with the same legal consequence of wet signatures
-- *Whereas* the parties intend to treat all operations done via blockchain as final, similarly to those performed through deeds
+- Whereas the grantor, trustee and beneficial owners want to digitize the title of the property to benefit from fully digital operations
+- Whereas blockchain smart contracts allow for a secure and interoperable way of tracking ownership of digital assets via the use of an electronic legdger to immutably track, document and verify all transactions
+- Whereas the parties agree to accept digital signature with the same legal consequence of wet signatures
+- Whereas the parties intend to treat all operations done via blockchain as final, similarly to those performed through deeds
 - Whereas on issuance of the digital asset, the parties agree to attach this Operating Agreement 
-- *Whereas* the parties, for the purpose of standardization, intend to keep all the identifing information stored in the NFT this contract is attached to, while defining all the oeprations, definitions and procedures in the Agreement
+- Whereas the parties, for the purpose of standardization, intend to keep all the identifing information stored in the NFT this contract is attached to, while defining all the oeprations, definitions and procedures in the Agreement
 
 ## 1. Trust Purpose ##
 
