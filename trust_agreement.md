@@ -57,7 +57,7 @@ This Trust Agreement (*“Agreement”*) is entered into via issuing a Digital A
 8. Trust proceeds
    1. More beneficiary rights (maybe can be collapsed into above)
 9. Trust modifications/amendments
-   1. This Agreement may be modified by the Beneficial Owner at any time by [running the update function or] attaching the updated agreement to the NFT. While the NFT metadata will only display the most current operating agreement, the history of the Agreement is stored on Ethereum, and is publicly available.
+   1. This Agreement may be modified by the Beneficial Owner at any time by [running the update function or] attaching the updated agreement to the NFT. While the NFT metadata will only display the most current operating agreement, the history of the Agreement is stored on Ethereum, and is publicly available. [fede note: I'm still undecided on this. it's potentially quite risky and a possible vector to rug ppl. on the other hand, not allowing upgradability would froze the property in the agreement version used at minting time, and updates would require an unconvenient tranfer to a new NFT]
 10. Trust termination
     1. Process for termination
     2. Grantor holds no right of termination, nor is any termination subject to grantor’s will/impact/influence
