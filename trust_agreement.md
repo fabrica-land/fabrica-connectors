@@ -34,15 +34,15 @@ This Trust Agreement (*“Agreement”*) is entered into via issuing a Digital A
    8. [Consensus rules] --> [pulled from ricardian LLC] means the rules for transaction validity, block validity and determination of the canonical blockchain that are embodied in Ethereum.
    9. [token updates] --> not sure we need it
 2. The NFT is minted via the Fabrica Smart Contract, and ownership records are maintained there
-3. Any action that the owner of the trust wants to commit re: the digital title/the property/the trust shall only be valid if first made on Ethereum and under the conditions of this Agreement. 
-4. Signature validity/consequence - Any signature or execution made through the use of private keys on Ethereum for any matters relating to the NFT, the Trust, the Token Mint, etc. shall be valid, as if signed in writing.
+3. Any action that the owner of the trust wants to commit re: the digital title/the property/the trust shall only be valid and fully sufficient if instructed on Ethereum through the Smart Contract and under the conditions of this Agreement. 
+4. Signature validity/consequence - Any signature or execution made through the use of private keys on Ethereum for any matters relating to the NFT, the Trust, the Token Mint, etc. shall be valid and fully sufficient, as if signed in writing.
 5. Explanation of token contract options/actions
    1. Discuss above defined terms further
 
 
 ### 3. Trust Creation/Existence
 
-1. Trustee (or beneficiary?) declares trust
+1. Trustee (or beneficiary?) declares trust. [fede note: shouldn't that be the grantor?]
    1. Need to figure out if this statement is necessary
 2. Contribution into trust / trust creation
    1. Discuss mechanism for trust creation + granting property into the trust
