@@ -24,13 +24,13 @@ This Trust Agreement (*“Agreement”*) is entered into via issuing a Digital A
    3. *"Smart Contract"* means the bytecode deployed on Ethereum used to maintain records of ownership of the NFT, to which this Agreement is attached.
    4. *"Token ID"* means the value returned by the `mint()` function, used to uniquely identify a newly issued NFT.
    5. *"Transfer"* means any operation performed thorugh the Smart Contract that assigns the NFT to a new Address.
-   6. *"Burn"* means any operation performed using the Smart Contract that results in the removal of the association between a Token Id and an Address, effectively destroying the NFT.
+   6. *"Burn"* means any operation performed using the Smart Contract that results in the removal of the association between a Token ID and an Address, effectively destroying the NFT.
    6. Beneficiary / Beneficial Owner
    6. Trustee
    6. Grantor
    6. Fabrica Smart Contract
    6. NFT Metadata - [includes token ID, name, property legal description, address/APN, link to the operating agreement, link to proof of title, geohash, registry name, country name and sub territory]
-   7. [Confirmed transaction] --> [pulled from ricardian LLC] means a transaction that has been recorded on Ethereum (as defined below) in accordance with the Consensus Rules (as defined below) in a valid block whose hashed header is referenced by a commercially reasonable number of subsequent valid blocks on Ethereum. The initial number of such blocks shall be 12.
+   7. [Confirmed transaction] --> [pulled from ricardian LLC] means a transaction that has been recorded on Ethereum (as defined above) in accordance with the Consensus Rules (as defined below) in a valid block whose hashed header is referenced by a commercially reasonable number of subsequent valid blocks on Ethereum. The initial number of such blocks shall be 12.
    8. [Consensus rules] --> [pulled from ricardian LLC] means the rules for transaction validity, block validity and determination of the canonical blockchain that are embodied in Ethereum.
    9. [token updates] --> not sure we need it
 2. The NFT is minted via the Fabrica Smart Contract, and ownership records are maintained there
