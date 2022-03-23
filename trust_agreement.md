@@ -29,6 +29,8 @@ This Trust Agreement (*“Agreement”*) is entered into via issuing a Digital A
    6. Trustee
    6. Grantor
    6. Fabrica Smart Contract
+   6. Property
+   6. Trust [or define in preamble]
    6. NFT Metadata - [includes token ID, name, property legal description, address/APN, link to the operating agreement, link to proof of title, geohash, registry name, country name and sub territory]
    7. [Confirmed transaction] --> [pulled from ricardian LLC] means a transaction that has been recorded on Ethereum (as defined below) in accordance with the Consensus Rules (as defined below) in a valid block whose hashed header is referenced by a commercially reasonable number of subsequent valid blocks on Ethereum. The initial number of such blocks shall be 12.
    8. [Consensus rules] --> [pulled from ricardian LLC] means the rules for transaction validity, block validity and determination of the canonical blockchain that are embodied in Ethereum.
@@ -42,13 +44,25 @@ This Trust Agreement (*“Agreement”*) is entered into via issuing a Digital A
 
 ### 3. Trust Creation/Existence
 
-1. Trustee (or beneficiary?) declares trust
-   1. Need to figure out if this statement is necessary
+1. Trust Declaration
+   1. The Trustee hereby declares that it will hold the Property in trust upon and subject to the conditions set forth herein for the benefit of the Beneficiary, and their additional successors and assigns. The Trustee and Beneficiary are authorized to execute any amendment or restatement of this Agreement in the manner provided in [**section**] so long as such amendment or restatement is not inconsistent with the provisions of this Agreement. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and should for all purposes be considered revocable by the Beneficiary.
+   2. Title to all of the assets of the Trust shall be vested in the Trust until the Trust dissolves; provided, however, that if the applicable laws of any jurisdiction require that title to any part of the assets of the Trust be vested in a party to the Trust, then title to that part of the assets of the Trust shall be vested in the Beneficiary to the extent so required, with such vested title remaining subject, however, to the assignment and transfer provisions of [**section**].
+   3. Legal title to the Trust Property will remain in the Trust despite transfer of the NFT.
 2. Contribution into trust / trust creation
    1. Discuss mechanism for trust creation + granting property into the trust
-   2. Need clarity here around lazy mint and how it interplays with trust
-3. Limiting grantor rights
-   1. Grantor reps/warranties?
+   2. Need clarity here on lazy mint mechanism
+3. Grantor rights and representations
+   1. The Grantor is the creator of the Trust and is responsible for funding of the Property into the Trust following creation. Following creation and funding of the Trust, the Grantor (except in his capacity as Trustee/Beneficiary) will have no rights regarding the Trust Property, the Digital Title, or the management of the Trust, and will not retain any voting, director appointment, consent, approval or management rights with respect to the Trust Property or the Trust. Further, Grantor will not have any right to require the Beneficiary or Trustee to consult with Grantor with respect to the exercise of such rights and neither the Beneficiary nor the Trustee is required to consult with Grantor with respect to such rights, and the Grantor will have no right to remove or to replace the Beneficiary or Trustee. For purposes of this Agreement, the Trust is not deemed to be an affiliate of Grantor or of any of Grantor’s affiliates.
+   2. [**need to think through the consequences of this. properties can be loaded with an easement (think right of entry easement by the utility co.) and that shouldn't be a default under the trust agreement. also need to understand better WHO is being rep'd to here**] Immediately Prior to Grantor’s conveyance of the Property into the Trust, Grantor represents and warrants:
+      1. That to the best of Grantor’s knowledge, Grantor owns fee simple record title to the Property, free and clear of all liens, special assessments, easements, reservations, restrictions and encumbrances, and there are no tenancy, rental, leases, licenses, parties in possession, or other occupancy rights or agreements affecting the Property. 
+      2. That Grantor has not received any notice, and has no knowledge, that the Property or any portion or portions thereof is or will be subject to or affected by:
+         1.  any special assessments, whether or not presently a lien thereon; or
+         2. any condemnation, eminent domain, change in grade of public streets, or similar proceeding.
+      3. That there are no actions, suits or proceedings of any kind or nature whatsoever, legal or equitable, affecting the Property or any portion or portions thereof or relating to or arising out of the ownership of the Property, in any court or before or by any federal, state, county or municipal department, commission, board, bureau, or agency or other governmental instrumentality.
+      4. That Grantor has the full right, power and authority to enter into and deliver this Agreement and to perform all covenants and agreements of Grantor hereunder.
+      5. That Grantor has not received any notice and has no actual knowledge that the Property has ever been used by previous owners and/or operators or Grantor to generate, manufacture, refine, transport, treat, store, handle or dispose of Hazardous Substance. Grantor has no actual knowledge of the Property having ever contained asbestos, PCB or other toxic materials.
+      6. To the best of Grantor’s actual knowledge, there are no pollutants, contaminants, petroleum products or by-products, asbestos or other substances, whether hazardous or not, on or beneath the surface of the Property.
+      7. There are no service contracts, maintenance or management agreements, commission or brokerage agreements, or other similar agreements affecting the Property.
 4. Trustee obligations, fees and indemnification
 5. Beneficiary/token owner rights
 6. statement on estate planning + personal responsibility of beneficiary to pay all taxes etc.
