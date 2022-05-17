@@ -46,7 +46,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 
 1. The process for entering into this Agreement is as follows:
    1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID based on the digital signature of this Agreement, the Creation Date and the legal description of the Property;
-   2. the Grantor acquires or transfers the Property into the Trust by deed. The deed language shall specify both the Fabrica Smart Contract and the Token ID;
+   2. the Grantor acquires or transfers the Property into the Trust by deed and records the deed at the authority or recorder. The deed language shall specify both the Fabrica Smart Contract and the Token ID;
    3. the Grantor Mints the NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed to the NFT Metadata
    4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the NFT will be kept by the Fabrica Smart Contract. 
 2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and (prior to a Transfer) should for all purposes be considered revocable.
