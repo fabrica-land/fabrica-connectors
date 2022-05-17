@@ -91,11 +91,11 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 ### 11. Trust termination
 
 1. The process for dissolving the Trust is as follows (“**Dissolution Event**”):
-   1. (1) first, the Beneficiary will instruct the Fabrica Smart Contract by calling the `burn` function; (2) second, after a Confirmed Transaction, the Beneficiary will digitally sign a deed with their private key, and instruct the Trustee to sign the deed transferring the Property and any other additional remaining Property from the Trust; and, (3) the Trustee will transfer the property out of the Trust.
-
+   1. first, the Beneficiary will instruct the Fabrica Smart Contract by calling the `burn` function; 
+   2. second, after a Confirmed Transaction, the Beneficiary will digitally sign a deed with their private key, and instruct the Trustee to sign the deed transferring the Property and any other additional remaining Property from the Trust; and, 
+   3. the Trustee will transfer the property out of the Trust.
 2. In the event of any disposition involving all or part of the Property, the proceeds of such distribution, whether in the form of cash, property, digital assets, or other assets or securities, will be distributed to the Beneficiary, or any other person or entity designated by the Beneficiary to receive such distribution. In the event that dividends or distributions are paid in respect of any portion of the Trust Property, all of such dividends or distributions shall be distributed to the Beneficiary as soon as practicable following receipt of any such dividends or distributions, whether in the form of cash, property or securities
 3. Throughout the life of the Trust, the Grantor holds no right of termination, nor is any termination subject to the life of Grantor or any decision or action taken by the Grantor.
-4. [In the event of lost keys, theft of keys, Beneficiary shall take the following steps to protect lawful title to the property:]
 
 ### 12. Miscellaneous
 
