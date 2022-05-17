@@ -34,7 +34,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 13. **NFT Metadata** means the data directly stored on Ethereum within the NFT as well as external data linked within the NFT itself. These will always include Token ID, Trust Name, and Property legal description. Other additional information may be included to simplify property identification, verify past ownership and other activities.
 14. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field "description." The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
 15. **Smart Contract** means the bytecode deployed on a specific Ethereum Address which acts as a program to execute and run a series of processes or interactions.
-16. **Token ID** means the value returned by the Mint, used to uniquely identify an NFT.
+16. **Token ID** means the unique and immutable identifier associated to the trust and the corresponding NFT.
 17. **Transfer** means any operation performed through the Smart Contract that assigns the NFT to a new Address.
 18. **Trustee** means the individual or entity appointed by the Beneficiary as the Trustee of the Trust.
 19. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata.
