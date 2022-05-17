@@ -26,7 +26,6 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 5. **Confirmed Transaction** means a transaction that has been recorded on Ethereum in accordance with the Consensus Rules (as defined below) in a valid block whose hashed header is referenced by a commercially reasonable number of subsequent valid blocks on Ethereum. The initial number of such blocks shall be 12.
 6. **Consensus Rules** means the rules for transaction validity, block validity and determination of the canonical blockchain that are embodied in Ethereum.
 7. **Contract Account** means an Address controlled by a Smart Contract.
-8. **Creation Date** means the date and time at which the Trust and NFT are created, as per the recorded timestamp of the `mint()` operation on Ethereum.
 9. **Ethereum** means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum as of the Creation Date.
 10. **Fabrica Smart Contract** means  the Smart Contract used to maintain records of ownership and management of the NFT to which this Agreement is attached.
 11. **Grantor** is the individual or entity who creates the Trust and NFT by executing the Mint operation (directly or through a third party) and granting the Property to the Trust.
