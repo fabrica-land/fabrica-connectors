@@ -25,18 +25,18 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 4. **Burn** is the result of a Confirmed Transaction of the `burn` function on the Fabrica Smart Contract that results in the removal of the association between a Token ID and an Address, effectively destroying the NFT.
 5. **Confirmed Transaction** means a transaction that has been recorded on Ethereum in accordance with the Consensus Rules (as defined below) in a valid block whose hashed header is referenced by a commercially reasonable number of subsequent valid blocks on Ethereum. The initial number of such blocks shall be 12.
 6. **Consensus Rules** means the rules for transaction validity, block validity and determination of the canonical blockchain that are embodied in Ethereum.
-7. **Creation Date** means the date at which the Trust was created by the Grantor, by determining the Token ID.
+7. **Creation Date** means the date at which the Trust was created by the Grantor.
 8. **Contract Account** means an Address controlled by a Smart Contract.
 9. **Ethereum** means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum as of the Creation Date.
 10. **Fabrica Smart Contract** means the Smart Contract used to maintain records of ownership and management of the NFT to which this Agreement is attached.
 11. **Fabrica NFT** means an NFT issued using the Fabrica Smart Contract
-12. **Grantor** is the individual or entity who creates the Trust and NFT by executing the Mint operation (directly or through a third party) and granting the Property to the Trust.
-13. **Mint** means a Confirmed Transaction `mint()` function on the Fabrica Smart Contract that results in the creation of a Token ID mapped to an Address.
-14. **Non Fungible Token (NFT)** means the digital asset stored on Ethereum with a unique identification code adhering to the ERC-721 or ERC-1155 standards
+12. **Grantor** is the individual or entity who creates the Trust and grants the Property to the Trust.
+13. **Mint** means a Confirmed Transaction `mint()` function on the Fabrica Smart Contract that results in the association of a Token ID to an Address.
+14. **Non Fungible Token (NFT)** means the digital asset stored on Ethereum with a unique identification code (Token ID) adhering to the ERC-721 or ERC-1155 standards
 15. **NFT Metadata** means the data directly stored within the NFT as well as external data linked within the NFT itself. These will always include Token ID, Trust Name, and Property legal description. Other additional information may be included to simplify property identification, verify past ownership and other activities.
-16. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field "description." The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
+16. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field `description`. The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
 17. **Smart Contract** means the bytecode deployed on a specific Ethereum Address which acts as a program to execute and run a series of processes or interactions.
-18. **Token ID** means the unique and immutable identifier associated to the trust and the corresponding NFT.
+18. **Token ID** means the unique and immutable identifier determined on Trust creation and assigned to the corresponding NFT on Mint.
 19. **Transfer** means any operation performed through the Smart Contract that assigns the NFT to a new Address.
 20. **Trustee** means the individual or entity appointed by the Beneficiary as the Trustee of the Trust.
 21. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata.
@@ -45,12 +45,12 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 ### 3. Establishing the Trust
 
 1. The process for entering into this Agreement is as follows:
-   1. The Grantor, or a third party instructed by the Grantor determines a Token ID;
+   1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID based on the digital signature of this Agreement, the Creation Date and the legal description of the Property;
    2. the Grantor transfers the Property into the Trust by deed. The deed language shall specify both the Fabrica Smart Contract and the Token ID;
    3. the Grantor Mints the NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed
    4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the NFT will be kept by the Fabrica Smart Contract. 
-3. The Trustee and Beneficiary are authorized to execute any amendment or restatement of this Agreement in the manner provided in **Section 10** so long as such amendment or restatement is not inconsistent with the provisions of this Agreement; however, no such amendment or restatement is valid or binding until such is attached to the NFT Metadata.
-4. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and should for all purposes be considered revocable by the Beneficiary.
+2. The Trustee and Beneficiary are authorized to execute any amendment or restatement of this Agreement in the manner provided in **Section 10** so long as such amendment or restatement is not inconsistent with the provisions of this Agreement; however, no such amendment or restatement is valid or binding until such is attached to the NFT Metadata.
+3. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and should for all purposes be considered revocable by the Beneficiary.
 
 ### 4. Transactions and Interactions with Fabrica Smart Contract
 
@@ -67,7 +67,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 ### 6. Beneficiary Rights
 
 1. The Beneficiary, or an authorized third party, is authorized: (1) to execute any function via the Fabrica Smart Contract regarding any decision made by the Beneficiary with respect to the NFT, the Property, and the Trust, including but not limited to transfer, lease, encumbrance, or partial or total sale of the NFT, transfer, lock or utilization of the NFT within any Contract Account, or any other legal and available activity with respect to ownership of property represented by a digital token; and, (2) to dissolve the Trust and instruct the Trustee to distribute the Property as more fully described in **Section 11**. The Beneficiary shall possess beneficial enjoyment to and from the Property, including the right of possession, right of control, right of exclusion, right of enjoyment and right of disposition, as well as the right to transfer, lend or dispose of such, subject to the provisions of the Trust. The Beneficiary shall have the right to borrow against the NFT . The Beneficiary is entitled to all net income and receipts from the Property from whatever source, and is responsible for any debts, taxes or other liabilities arising out of the Property or ownership of the NFT. All net income accrued or undistributed at the termination of any interest shall be treated as if it had accrued or been received immediately after that termination. All of the above Beneficiary rights and entitlements are referred to herein as the “**Owner Rights**." 
-3. The Owner Rights should be considered absolute, sole and uncontrolled, except to the extent that such Owner Rights are in conflict with the other provisions of this Agreement.
+2. The Owner Rights should be considered absolute, sole and uncontrolled, except to the extent that such Owner Rights are in conflict with the other provisions of this Agreement.
 
 ### 7. NFT Transfer
 
