@@ -4,7 +4,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 
 ### Recitals
 
-- Whereas blockchain smart contracts allow for a secure and interoperable way of representing ownership of digital assets through use of an electronic legdger to immutably track, document and verify all transactions. As a consequence, new systems and methods are emerging to store, interact with and transact on real and digital assets.
+- Whereas blockchain smart contracts allow for a secure and interoperable way of representing ownership of digital assets through use of an electronic ledger to immutably track, document and verify all transactions. As a consequence, new systems and methods are emerging to store, interact with and transact on real and digital assets.
 - Whereas the grantor wants to link ownership of real property to an NFT so as to benefit from fully digital operations and services.
 - Whereas on issuance of the NFT, the grantor will attach this Agreement to the NFT, and intends for this Agreement to act as the operating agreement of the entity holding real property. For the purposes of interoperability and standardization, the grantor and any subsequent party to this agreement intend to keep all the identifying information of this Agreement stored in the NFT to which this contract has been attached. All the operations, definitions and procedures related to the NFT and the Trust will be stored in this Agreement.
 - Whereas the purpose and design of this Trust allow the beneficiary to use blockchain technology to facilitate transfer and utilization of property ownership. To the extent provided in this Agreement, the trustee's power and authority to deal with the property are subject to direction by the beneficiary, who holds all economic and beneficial rights to the property. The beneficiary (who may change from time to time and is at all times defined as the party presently holding ultimate control over the NFT) is entitled to income, maintains the sole right of termination, and is treated as the owner of the property for all federal, state and local tax purposes. 
@@ -35,7 +35,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 14. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field "description." The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
 15. **Smart Contract** means the bytecode deployed on a specific Ethereum Address which acts as a program to execute and run a series of processes or interactions.
 16. **Token ID** means the value returned by the Mint, used to uniquely identify an NFT.
-17. **Transfer** means any operation performed thorugh the Smart Contract that assigns the NFT to a new Address.
+17. **Transfer** means any operation performed through the Smart Contract that assigns the NFT to a new Address.
 18. **Trustee** means the individual or entity appointed by the Beneficiary as the Trustee of the Trust.
 19. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata.
 
