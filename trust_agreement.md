@@ -21,7 +21,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 
 1. **Account** means an Address owned by a person and controlled through a private key.
 2. **Address** means a public key address on Ethereum.
-3. **Beneficiary** means the individual or entity that is in control of the most recent Account owning the NFT. In case no Account can be determined, the Beneficiary shall be the original Grantor.
+3. **Beneficiary** means the individual or entity that is in control of the most recent Account owning the NFT. In case the NFT was never minted nor owned by any Account, the Beneficiary shall be the original Grantor.
 4. **Burn** is the result of a Confirmed Transaction of the `burn` function on the Fabrica Smart Contract that results in the removal of the association between a Token ID and an Address, effectively destroying the NFT.
 5. **Confirmed Transaction** means a transaction that has been recorded on Ethereum in accordance with the Consensus Rules (as defined below) in a valid block whose hashed header is referenced by a commercially reasonable number of subsequent valid blocks on Ethereum. The initial number of such blocks shall be 12.
 6. **Consensus Rules** means the rules for transaction validity, block validity and determination of the canonical blockchain that are embodied in Ethereum.
