@@ -49,7 +49,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
    2. the Grantor acquires or transfers the Property into the Trust by deed. The deed language shall specify both the Fabrica Smart Contract and the Token ID;
    3. the Grantor Mints the NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed to the NFT Metadata
    4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the NFT will be kept by the Fabrica Smart Contract. 
-2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and should for all purposes be considered revocable by the Beneficiary.
+2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and (prior to a Transfer) should for all purposes be considered revocable.
 
 ### 4. Transactions and Interactions with Fabrica Smart Contract
 
