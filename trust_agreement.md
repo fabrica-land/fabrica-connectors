@@ -47,10 +47,9 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 1. The process for entering into this Agreement is as follows:
    1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID based on the digital signature of this Agreement, the Creation Date and the legal description of the Property;
    2. the Grantor acquires or transfers the Property into the Trust by deed. The deed language shall specify both the Fabrica Smart Contract and the Token ID;
-   3. the Grantor Mints the NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed
+   3. the Grantor Mints the NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed to the NFT Metadata
    4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the NFT will be kept by the Fabrica Smart Contract. 
-2. The Trustee and Beneficiary are authorized to execute any amendment or restatement of this Agreement in the manner provided in **Section 10** so long as such amendment or restatement is not inconsistent with the provisions of this Agreement; however, no such amendment or restatement is valid or binding until such is attached to the NFT Metadata.
-3. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and should for all purposes be considered revocable by the Beneficiary.
+2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and should for all purposes be considered revocable by the Beneficiary.
 
 ### 4. Transactions and Interactions with Fabrica Smart Contract
 
@@ -88,10 +87,6 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 ### 9. No individual ownership; Trust Proceeds
 
 1. Title to all of the assets of the Trust shall be vested in the Trust until the Trust dissolves; provided, however, that if the applicable laws of any jurisdiction require that title to any part of the assets of the Trust be vested in a party to the Trust, then title to that part of the assets of the Trust shall be vested in the Beneficiary to the extent so required, with such vested title remaining subject, however, to the assignment and transfer provisions of **Section 7**. Ownership of the Property will remain in the Trust, despite transfer of the NFT, until such time as the Trust is dissolved.
-
-### 10. Trust Modifications
-
-1. This Agreement may be modified by the Beneficiary at any time by [running the `update` function or] attaching the updated agreement to the NFT. While the NFT metadata will only display the most current operating agreement, the history of the Agreement will be stored on Ethereum, and remain publicly available. [fede note: I'm still undecided on this. it's potentially quite risky and a possible vector to rug ppl. on the other hand, not allowing upgradability would froze the property in the agreement version used at minting time, and updates would require an unconvenient tranfer to a new NFT]
 
 ### 11. Trust termination
 
