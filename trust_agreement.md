@@ -1,54 +1,55 @@
 # Fabrica Trust Agreement
 
-This Trust Agreement (*“Agreement”*) is entered into by the Grantor through the creation of an NFT on the Fabrica Smart Contract. The identifying information of this trust (the "Trust") may be found in the NFT Metadata to which this Agreement is attached.
+This Trust Agreement (*“Agreement”*) is entered into by the Grantor through the creation of a Fabrica NFT. The identifying information of this trust (the *"Trust"*) may be found in the NFT to which this Agreement is attached.
 
 ### Recitals
 
-- Whereas blockchain smart contracts allow for a secure and interoperable way of representing ownership of digital assets through use of an electronic legdger to immutably track, document and verify all transactions. As a consequence, new systems and methods are emerging to store, interact with and transact on real and digital assets.
+- Whereas blockchain smart contracts allow for a secure and interoperable way of representing ownership of digital assets through use of an electronic ledger to immutably track, document and verify all transactions. As a consequence, new systems and methods are emerging to store, interact with and transact on real and digital assets.
 - Whereas the grantor wants to link ownership of real property to an NFT so as to benefit from fully digital operations and services.
-- Whereas on issuance of the NFT, the grantor will attach this Agreement to the NFT metadata, and intends for this Agreement to act as the operating agreement of the entity holding real property. For the purposes of interoperability and standardization, the grantor and any subsequent party to this agreement intend to keep all the identifying information of this Agreement stored in the NFT metadata to which this contract has been attached. All the operations, definitions and procedures related to the NFT and the Trust will be stored in this Agreement.
+- Whereas on issuance of the NFT, the grantor will attach this Agreement to the NFT, and intends for this Agreement to act as the operating agreement of the entity holding real property. For the purposes of interoperability and standardization, the grantor and any subsequent party to this agreement intend to keep all the identifying information of this Agreement stored in the NFT to which this contract has been attached. All the operations, definitions and procedures related to the NFT and the Trust will be stored in this Agreement.
 - Whereas the purpose and design of this Trust allow the beneficiary to use blockchain technology to facilitate transfer and utilization of property ownership. To the extent provided in this Agreement, the trustee's power and authority to deal with the property are subject to direction by the beneficiary, who holds all economic and beneficial rights to the property. The beneficiary (who may change from time to time and is at all times defined as the party presently holding ultimate control over the NFT) is entitled to income, maintains the sole right of termination, and is treated as the owner of the property for all federal, state and local tax purposes. 
 - Whereas the parties intend to treat all operations done via blockchain on the NFT as final, similar to those performed under traditional contract. Further, the parties intend to treat digital signatures with the same legal consequence of wet signatures.
 - Now, therefore, in consideration of the agreements and obligations set forth herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
 
 ### 1. Trust Purpose ###
 
-1. The purpose of the trust is to create and maintain a link between ownership of the Property and the NFT on Ethereum, so as to allow for the time efficient, cost effective, accurate, and secure ownership, transfer, use and enjoyment of real property title in the digital environment (the "**Trust Purpose**"). 
-2. On creation, the Trust will take and hold title to the Property, and ownership of the Trust will be represented by ownership of the NFT. Regardless of the sale, hypothecation, or other transfer of the NFT, title to the Property will remain in the Trust until such time as the then-present Beneficiary (or another authorized party) executes the `burn` function and, by doing so, removes the property from the Trust. In order to facilitate the Trust Purpose, the Trustee and Beneficiary agree that no deed transferring the Property out of the Trust will be valid unless the Beneficiary has first burned the NFT and digitally executed the deed.
-3. Subect to **Section 7**, the owner(s) of the Account holding the NFT shall be the Beneficiary of the Trust, and have the right to appoint the Trustee. All rights and obligations in this agreement shall at all times be linked to the owner of the NFT, such that rightful possession of the NFT gives the holder full and total beneficial ownership.
+1. The purpose of the Trust is to create a link such that ownership of the NFT on Ethereum determines ownership of the property, so as to allow for the time efficient, cost effective, accurate, and secure ownership, transfer, use and enjoyment of real property title in the digital environment (the "**Trust Purpose**"). 
+2. On creation, the Trust will take and hold title to the Property, and ownership of the Trust will be represented by ownership of the NFT. Regardless of the sale, hypothecation, or other transfer of the NFT, title to the Property will remain in the Trust until such time as the then-present Beneficiary (or another authorized party) distributes the property out of the Trust. In order to facilitate the Trust Purpose, the Trustee and Beneficiary agree that no deed or other agreement transferring the Property out of the Trust will be valid unless the Beneficiary has first ensured that the NFT has been succesfully destroyed (burned).
+3. Subject to **Section 7**, the owner(s) of the Account holding the NFT shall be the Beneficiary of the Trust, and have the right to appoint the Trustee. All rights and obligations in this agreement shall at all times be linked to the owner of the NFT, such that rightful possession of the NFT gives the holder full and total beneficial ownership.
 
 ### 2. Definitions ###
 
 1. **Account** means an Address owned by a person and controlled through a private key.
 2. **Address** means a public key address on Ethereum.
-3. **Beneficiary** means the individual or entity that is in control of the Account specified as owning the NFT at any given moment.
+3. **Beneficiary** means the individual or entity that is in control of the most recent Account owning the NFT. In the event the NFT has not yet been minted, or has been minted but has never yet been owned by any Account, the Beneficiary shall be the original Grantor.
 4. **Burn** is the result of a Confirmed Transaction of the `burn` function on the Fabrica Smart Contract that results in the removal of the association between a Token ID and an Address, effectively destroying the NFT.
 5. **Confirmed Transaction** means a transaction that has been recorded on Ethereum in accordance with the Consensus Rules (as defined below) in a valid block whose hashed header is referenced by a commercially reasonable number of subsequent valid blocks on Ethereum. The initial number of such blocks shall be 12.
 6. **Consensus Rules** means the rules for transaction validity, block validity and determination of the canonical blockchain that are embodied in Ethereum.
 7. **Contract Account** means an Address controlled by a Smart Contract.
-8. **Creation Date** means the date and time at which the Trust and NFT are created, as per the recorded timestamp of the `mint()` operation on Ethereum.
+8. **Creation Date** means the date and time at which the Trust was created by the Grantor.
 9. **Ethereum** means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum as of the Creation Date.
-10. **Fabrica Smart Contract** means  the Smart Contract used to maintain records of ownership and management of the NFT to which this Agreement is attached.
-11. **Grantor** is the individual or entity who creates the Trust and NFT by executing the Mint operation (directly or through a third party) and granting the Property to the Trust.
-12. **Mint** means a Confirmed Transaction `mint()` function on the Fabrica Smart Contract that results in the creation of a Token ID mapped to an Address.
-13. **NFT Metadata** means the data directly stored on Ethereum within the NFT as well as external data linked within the NFT itself. These will always include Token ID, Trust Name, and Property legal description. Other additional information may be included to simplify property identification, verify past ownership and other activities.
-14. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field "description." The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
-15. **Smart Contract** means the bytecode deployed on a specific Ethereum Address which acts as a program to execute and run a series of processes or interactions.
-16. **Token ID** means the value returned by the Mint, used to uniquely identify an NFT.
-17. **Transfer** means any operation performed thorugh the Smart Contract that assigns the NFT to a new Address.
-18. **Trustee** means the individual or entity appointed by the Beneficiary as the Trustee of the Trust.
-19. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata.
+10. **Fabrica Smart Contract** means the Smart Contract used to maintain records of ownership and management of the NFT to which this Agreement is attached.
+11. **Fabrica NFT** means an NFT issued using the Fabrica Smart Contract.
+12. **Grantor** is the individual or entity who creates the Trust and grants the Property to the Trust.
+13. **Mint** means a Confirmed Transaction `mint()` function on the Fabrica Smart Contract that results in the association of a Token ID to an Address.
+14. **Non Fungible Token (NFT)** means the digital asset stored on Ethereum with a unique identification code (Token ID) adhering to the ERC-721 or ERC-1155 standards.
+15. **NFT Metadata** means the data directly stored within the NFT as well as external data linked within the NFT itself. These will always include Token ID, Trust Name, and Property legal description. Other additional information may be included to simplify property identification, verify past ownership and other activities.
+16. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field `description`. The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
+17. **Smart Contract** means the bytecode deployed on a specific Ethereum Address which acts as a program to execute and run a series of processes or interactions.
+18. **Token ID** means the unique and immutable identifier determined on Trust creation and assigned to the corresponding Fabrica NFT. The Token ID is created based on the digital signature of this Agreement, the Creation Date and the legal description of the Property.
+19. **Transfer** means any operation performed through the Smart Contract that assigns the NFT to a new Address.
+20. **Trustee** means the individual or entity appointed by the Beneficiary as the Trustee of the Trust.
+21. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata.
 
 
 ### 3. Establishing the Trust
 
 1. The process for entering into this Agreement is as follows:
-   1. The Grantor, or a third party instructed by the Grantor, creates a Token ID by [________];
-   2. Once the Token ID is created, the Grantor transfers the Property into the Trust;
-   3. After the deed is recorded, the Grantor Mints the NFT and attaches the documents related to this Agreement and the Property ownership records to the NFT Metadata;
+   1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID using the Fabrica Smart Contract;
+   2. the Grantor acquires or transfers the Property into the Trust by deed and records the deed with the relevant authority or recorder. The deed language shall specify both the Fabrica Smart Contract address and the Token ID;
+   3. the Grantor Mints the NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed to the NFT Metadata;
    4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the NFT will be kept by the Fabrica Smart Contract. 
-3. The Trustee and Beneficiary are authorized to execute any amendment or restatement of this Agreement in the manner provided in **Section 10** so long as such amendment or restatement is not inconsistent with the provisions of this Agreement; however, no such amendment or restatement is valid or binding until such is attached to the NFT Metadata.
-4. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and should for all purposes be considered revocable by the Beneficiary.
+2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and (prior to a Transfer) should for all purposes be considered revocable.
 
 ### 4. Transactions and Interactions with Fabrica Smart Contract
 
@@ -65,7 +66,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 ### 6. Beneficiary Rights
 
 1. The Beneficiary, or an authorized third party, is authorized: (1) to execute any function via the Fabrica Smart Contract regarding any decision made by the Beneficiary with respect to the NFT, the Property, and the Trust, including but not limited to transfer, lease, encumbrance, or partial or total sale of the NFT, transfer, lock or utilization of the NFT within any Contract Account, or any other legal and available activity with respect to ownership of property represented by a digital token; and, (2) to dissolve the Trust and instruct the Trustee to distribute the Property as more fully described in **Section 11**. The Beneficiary shall possess beneficial enjoyment to and from the Property, including the right of possession, right of control, right of exclusion, right of enjoyment and right of disposition, as well as the right to transfer, lend or dispose of such, subject to the provisions of the Trust. The Beneficiary shall have the right to borrow against the NFT . The Beneficiary is entitled to all net income and receipts from the Property from whatever source, and is responsible for any debts, taxes or other liabilities arising out of the Property or ownership of the NFT. All net income accrued or undistributed at the termination of any interest shall be treated as if it had accrued or been received immediately after that termination. All of the above Beneficiary rights and entitlements are referred to herein as the “**Owner Rights**." 
-3. The Owner Rights should be considered absolute, sole and uncontrolled, except to the extent that such Owner Rights are in conflict with the other provisions of this Agreement.
+2. The Owner Rights should be considered absolute, sole and uncontrolled, except to the extent that such Owner Rights are in conflict with the other provisions of this Agreement.
 
 ### 7. NFT Transfer
 
@@ -87,20 +88,16 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 
 1. Title to all of the assets of the Trust shall be vested in the Trust until the Trust dissolves; provided, however, that if the applicable laws of any jurisdiction require that title to any part of the assets of the Trust be vested in a party to the Trust, then title to that part of the assets of the Trust shall be vested in the Beneficiary to the extent so required, with such vested title remaining subject, however, to the assignment and transfer provisions of **Section 7**. Ownership of the Property will remain in the Trust, despite transfer of the NFT, until such time as the Trust is dissolved.
 
-### 10. Trust Modifications
-
-1. This Agreement may be modified by the Beneficiary at any time by [running the `update` function or] attaching the updated agreement to the NFT. While the NFT metadata will only display the most current operating agreement, the history of the Agreement will be stored on Ethereum, and remain publicly available. [fede note: I'm still undecided on this. it's potentially quite risky and a possible vector to rug ppl. on the other hand, not allowing upgradability would froze the property in the agreement version used at minting time, and updates would require an unconvenient tranfer to a new NFT]
-
-### 11. Trust termination
+### 10. Trust termination
 
 1. The process for dissolving the Trust is as follows (“**Dissolution Event**”):
-   1. (1) first, the Beneficiary will instruct the Fabrica Smart Contract by calling the `burn` function; (2) second, after a Confirmed Transaction, the Beneficiary will digitally sign a deed with their private key, and instruct the Trustee to sign the deed transferring the Property and any other additional remaining Property from the Trust; and, (3) the Trustee will transfer the property out of the Trust.
-
+   1. first, the Beneficiary will instruct the Fabrica Smart Contract by calling the `burn` function; 
+   2. second, after a Confirmed Transaction, the Beneficiary will digitally sign a deed with their private key, and instruct the Trustee to sign the deed transferring the Property and any other additional remaining Property from the Trust; and, 
+   3. the Trustee will transfer the property out of the Trust.
 2. In the event of any disposition involving all or part of the Property, the proceeds of such distribution, whether in the form of cash, property, digital assets, or other assets or securities, will be distributed to the Beneficiary, or any other person or entity designated by the Beneficiary to receive such distribution. In the event that dividends or distributions are paid in respect of any portion of the Trust Property, all of such dividends or distributions shall be distributed to the Beneficiary as soon as practicable following receipt of any such dividends or distributions, whether in the form of cash, property or securities
 3. Throughout the life of the Trust, the Grantor holds no right of termination, nor is any termination subject to the life of Grantor or any decision or action taken by the Grantor.
-4. [In the event of lost keys, theft of keys, Beneficiary shall take the following steps to protect lawful title to the property:]
 
-### 12. Miscellaneous
+### 11. Miscellaneous
 
 1. If any part of any provision of this Agreement or any other agreement, document or writing given pursuant to or in connection with this Agreement shall be invalid or unenforceable under applicable law, said part shall be ineffective to the extent of such invalidity only, without in any way affecting the remaining part of said provision or the remaining provisions of this Agreement.
 2. The headings of the sections and subsections of this Agreement are inserted for convenience of reference only and do not form a part or affect the meaning hereof. Wherever used herein, a pronoun in any gender shall be considered as including any other gender pronoun. References to the singular include the plural, and vice versa.
