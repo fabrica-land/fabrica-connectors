@@ -1,6 +1,6 @@
 # Fabrica Trust Agreement
 
-This Trust Agreement (*“Agreement”*) is entered into by the Grantor through the creation of a Fabrica NFT. The identifying information of this trust (the *"Trust"*) may be found in the NFT to which this Agreement is attached.
+This Trust Agreement (*“Agreement”*) is entered into by the Grantor through the creation of a Fabrica NFT. The identifying information of this trust (the *"Trust"*) may be found in the Fabrica NFT to which this Agreement is attached.
 
 ### Recitals
 
@@ -8,7 +8,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 - Whereas the grantor wants to link ownership of real property to an NFT so as to benefit from fully digital operations and services.
 - Whereas on issuance of the NFT, the grantor will attach this Agreement to the NFT, and intends for this Agreement to act as the operating agreement of the entity holding real property. For the purposes of interoperability and standardization, the grantor and any subsequent party to this agreement intend to keep all the identifying information of this Agreement stored in the NFT to which this contract has been attached. All the operations, definitions and procedures related to the NFT and the Trust will be stored in this Agreement.
 - Whereas the purpose and design of this Trust allow the beneficiary to use blockchain technology to facilitate transfer and utilization of property ownership. To the extent provided in this Agreement, the trustee's power and authority to deal with the property are subject to direction by the beneficiary, who holds all economic and beneficial rights to the property. The beneficiary (who may change from time to time and is at all times defined as the party presently holding ultimate control over the NFT) is entitled to income, maintains the sole right of termination, and is treated as the owner of the property for all federal, state and local tax purposes. 
-- Whereas the parties intend to treat all operations done via blockchain on the NFT as final, similar to those performed under traditional contract. Further, the parties intend to treat digital signatures with the same legal consequence of wet signatures.
+- Whereas the parties intend to treat all operations done via blockchain on the NFT as final, similar to those performed under traditional contract. Further, the parties intend to treat digital signatures with the same legal consequence as wet signatures.
 - Now, therefore, in consideration of the agreements and obligations set forth herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
 
 ### 1. Trust Purpose ###
@@ -28,7 +28,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 7. **Contract Account** means an Address controlled by a Smart Contract.
 8. **Creation Date** means the date and time at which the Trust was created by the Grantor.
 9. **Ethereum** means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum as of the Creation Date.
-10. **Fabrica Smart Contract** means the Smart Contract used to maintain records of ownership and management of the NFT to which this Agreement is attached.
+10. **Fabrica Smart Contract** means the Smart Contract used to maintain records of ownership and management of the Fabrica NFT to which this Agreement is attached.
 11. **Fabrica NFT** means an NFT issued using the Fabrica Smart Contract.
 12. **Grantor** is the individual or entity who creates the Trust and grants the Property to the Trust.
 13. **Mint** means a Confirmed Transaction `mint()` function on the Fabrica Smart Contract that results in the association of a Token ID to an Address.
@@ -46,10 +46,12 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 
 1. The process for entering into this Agreement is as follows:
    1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID using the Fabrica Smart Contract;
-   2. the Grantor acquires or transfers the Property into the Trust by deed and records the deed with the relevant authority or recorder. The deed language shall specify both the Fabrica Smart Contract address and the Token ID;
-   3. the Grantor Mints the NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed to the NFT Metadata;
+   2. the Grantor transfers the Property into the Trust by deed, or instructs a third party owner to do so, and records the deed with the relevant authority or recorder. The deed language shall specify both the Fabrica Smart Contract address and the Token ID;
+   3. the Grantor Mints the Fabrica NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed to the NFT Metadata;
    4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the NFT will be kept by the Fabrica Smart Contract. 
-2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and (prior to a Transfer) should for all purposes be considered revocable.
+2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company, and (prior to a Transfer) should for all purposes be considered revocable by the Beneficiary.
+3. In the event that the Fabrica NFT is minted by a Contract Account, then the Grantor shall be considered the Beneficiary of the Trust, unless otherwise specified.
+4. In the event that the Property has been transferred into the Trust, but the Fabrica NFT has not yet been minted and no Beneficiary has been specified, the Grantor shall be considered the Beneficiary of the Trust, unless otherwise specified.
 
 ### 4. Transactions and Interactions with Fabrica Smart Contract
 
@@ -95,7 +97,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
    2. second, after a Confirmed Transaction, the Beneficiary will digitally sign a deed with their private key, and instruct the Trustee to sign the deed transferring the Property and any other additional remaining Property from the Trust; and, 
    3. the Trustee will transfer the property out of the Trust.
 2. In the event of any disposition involving all or part of the Property, the proceeds of such distribution, whether in the form of cash, property, digital assets, or other assets or securities, will be distributed to the Beneficiary, or any other person or entity designated by the Beneficiary to receive such distribution. In the event that dividends or distributions are paid in respect of any portion of the Trust Property, all of such dividends or distributions shall be distributed to the Beneficiary as soon as practicable following receipt of any such dividends or distributions, whether in the form of cash, property or securities
-3. Throughout the life of the Trust, the Grantor holds no right of termination, nor is any termination subject to the life of Grantor or any decision or action taken by the Grantor.
+3. Once the Trust has been fully established, as per the steps in **Section 3**, and throughout the life of the Trust, the Grantor holds no right of termination, nor is any termination subject to the life of Grantor or any decision or action taken by the Grantor. 
 
 ### 11. Miscellaneous
 
