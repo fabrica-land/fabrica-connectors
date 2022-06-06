@@ -1,6 +1,6 @@
 # Fabrica Trust Agreement
 
-This Trust Agreement (*“Agreement”*) is entered into by the Grantor through the creation of a Fabrica NFT. The identifying information of this trust (the *"Trust"*) may be found in the Fabrica NFT to which this Agreement is attached.
+This Trust Agreement ("**Agreement**") is entered into by the Grantor through the creation of a Fabrica NFT. The identifying information of this trust (the "**Trust**") may be found in the Fabrica NFT to which this Agreement is attached.
 
 ### Recitals
 
@@ -67,7 +67,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 
 ### 6. Beneficiary Rights
 
-1. The Beneficiary, or an authorized third party, is authorized: (1) to execute any function via the Fabrica Smart Contract regarding any decision made by the Beneficiary with respect to the NFT, the Property, and the Trust, including but not limited to transfer, lease, encumbrance, or partial or total sale of the NFT, transfer, lock or utilization of the NFT within any Contract Account, or any other legal and available activity with respect to ownership of property represented by a digital token; and, (2) to dissolve the Trust and instruct the Trustee to distribute the Property as more fully described in **Section 11**. The Beneficiary shall possess beneficial enjoyment to and from the Property, including the right of possession, right of control, right of exclusion, right of enjoyment and right of disposition, as well as the right to transfer, lend or dispose of such, subject to the provisions of the Trust. The Beneficiary shall have the right to borrow against the NFT . The Beneficiary is entitled to all net income and receipts from the Property from whatever source, and is responsible for any debts, taxes or other liabilities arising out of the Property or ownership of the NFT. All net income accrued or undistributed at the termination of any interest shall be treated as if it had accrued or been received immediately after that termination. All of the above Beneficiary rights and entitlements are referred to herein as the “**Owner Rights**." 
+1. The Beneficiary, or an authorized third party, is authorized: (1) to execute any function via the Fabrica Smart Contract regarding any decision made by the Beneficiary with respect to the NFT, the Property, and the Trust, including but not limited to transfer, lease, encumbrance, or partial or total sale of the NFT, transfer, lock or utilization of the NFT within any Contract Account, or any other legal and available activity with respect to ownership of property represented by a digital token; and, (2) to dissolve the Trust and instruct the Trustee to distribute the Property as more fully described in **Section 11**. The Beneficiary shall possess beneficial enjoyment to and from the Property, including the right of possession, right of control, right of exclusion, right of enjoyment and right of disposition, as well as the right to transfer, lend or dispose of such, subject to the provisions of the Trust. The Beneficiary shall have the right to borrow against the NFT . The Beneficiary is entitled to all net income and receipts from the Property from whatever source, and is responsible for any debts, taxes or other liabilities arising out of the Property or ownership of the NFT. All net income accrued or undistributed at the termination of any interest shall be treated as if it had accrued or been received immediately after that termination. All of the above Beneficiary rights and entitlements are referred to herein as the "**Owner Rights**."
 2. The Owner Rights should be considered absolute, sole and uncontrolled, except to the extent that such Owner Rights are in conflict with the other provisions of this Agreement.
 
 ### 7. NFT Transfer
@@ -92,7 +92,7 @@ This Trust Agreement (*“Agreement”*) is entered into by the Grantor through 
 
 ### 10. Trust termination
 
-1. The process for dissolving the Trust is as follows (“**Dissolution Event**”):
+1. The process for dissolving the Trust is as follows ("**Dissolution Event**"):
    1. first, the Beneficiary will instruct the Fabrica Smart Contract by calling the `burn` function; 
    2. second, after a Confirmed Transaction, the Beneficiary will digitally sign a deed with their private key, and instruct the Trustee to sign the deed transferring the Property and any other additional remaining Property from the Trust; and, 
    3. the Trustee will transfer the property out of the Trust.
