@@ -22,7 +22,7 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 1. **Account** means an Address owned by a person and controlled through a private key.
 2. **Address** means a public key address on Ethereum.
 3. **Beneficiary** means the individual or entity that is in control of the most recent Account owning the NFT. In the event the NFT has not yet been minted, or has been minted but has never yet been owned by any Account, the Beneficiary shall be the original Grantor.
-4. **Burn** is the result of a Confirmed Transaction of the `burn` function on the Fabrica Smart Contract that results in the removal of the association between a Token ID and an Address, effectively destroying the NFT.
+4. **Burn** is the result of a Confirmed Transaction of the `burn` or `burnBatch` functions on the Fabrica Smart Contract that results in the removal of the association between a Token ID and an Address, effectively locking the NFT.
 5. **Confirmed Transaction** means a transaction that has been recorded on Ethereum in accordance with the Consensus Rules (as defined below) in a valid block whose hashed header is referenced by a commercially reasonable number of subsequent valid blocks on Ethereum. The initial number of such blocks shall be 12.
 6. **Consensus Rules** means the rules for transaction validity, block validity and determination of the canonical blockchain that are embodied in Ethereum.
 7. **Contract Account** means an Address controlled by a Smart Contract.
@@ -31,21 +31,21 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 10. **Fabrica Smart Contract** means the Smart Contract used to maintain records of ownership and management of the Fabrica NFT to which this Agreement is attached.
 11. **Fabrica NFT** means an NFT issued using the Fabrica Smart Contract.
 12. **Grantor** is the individual or entity who creates the Trust and grants the Property to the Trust.
-13. **Mint** means a Confirmed Transaction `mint()` function on the Fabrica Smart Contract that results in the association of a Token ID to an Address.
-14. **Non Fungible Token (NFT)** means the digital asset stored on Ethereum with a unique identification code (Token ID) adhering to the ERC-721 or ERC-1155 standards.
-15. **NFT Metadata** means the data directly stored within the NFT as well as external data linked within the NFT itself. These will always include Token ID, Trust Name, and Property legal description. Other additional information may be included to simplify property identification, verify past ownership and other activities.
-16. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field `description`. The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
+13. **Mint** means a Confirmed Transaction `mint()` or `mintBatch()` function on the Fabrica Smart Contract that results in the association of a Token ID to an Address.
+14. **Non Fungible Token (NFT)** means the digital asset stored on Ethereum with a unique identification code (Token ID) adhering to the ERC-1155 standards.
+15. **NFT Metadata** means the data directly stored within the NFT as well as external data stored on IPFS and linked within the NFT itself. These will always include Token ID, Trust Name (stored as `definition.holdingEntity`), and Property legal description (definition.claim`). Other additional information may be included to simplify property identification, verify past ownership and other activities.
+16. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field `definition.claim`. The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
 17. **Smart Contract** means the bytecode deployed on a specific Ethereum Address which acts as a program to execute and run a series of processes or interactions.
-18. **Token ID** means the unique and immutable identifier determined on Trust creation and assigned to the corresponding Fabrica NFT. The Token ID is created based on the digital signature of this Agreement, the Creation Date and the legal description of the Property.
-19. **Transfer** means any operation performed through the Smart Contract that assigns the NFT to a new Address.
+18. **Token ID** means the unique and immutable identifier determined on Trust creation and assigned to the corresponding Fabrica NFT. The Token ID is created based on the digital signature of mutiple fields combined, including this Agreement.
+19. **Transfer** means any operation performed through the Smart Contract that assigns the NFT to a new non null Address.
 20. **Trustee** means the individual or entity appointed by the Beneficiary as the Trustee of the Trust.
-21. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata.
+21. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata (in `definition.holdingEntity`).
 
 
 ### 3. Establishing the Trust
 
 1. The process for entering into this Agreement is as follows:
-   1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID using the Fabrica Smart Contract;
+   1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID using the function `generateId` on the Fabrica Smart Contract;
    2. the Grantor transfers the Property into the Trust by deed, or instructs a third party owner to do so, and records the deed with the relevant authority or recorder. The deed language shall specify both the Fabrica Smart Contract address and the Token ID;
    3. the Grantor Mints the Fabrica NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed to the NFT Metadata;
    4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the NFT will be kept by the Fabrica Smart Contract. 
@@ -93,8 +93,8 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 ### 10. Trust termination
 
 1. The process for dissolving the Trust is as follows ("**Dissolution Event**"):
-   1. first, the Beneficiary will instruct the Fabrica Smart Contract by calling the `burn` function; 
-   2. second, after a Confirmed Transaction, the Beneficiary will digitally sign a deed with their private key, and instruct the Trustee to sign the deed transferring the Property and any other additional remaining Property from the Trust; and, 
+   1. first, the Beneficiary will instruct the Fabrica Smart Contract by calling the `burn` or `burnBatch` functions; 
+   2. second, after a Confirmed Transaction, the Beneficiary will instruct the Trustee to sign a deed transferring the Property and any other additional remaining Property from the Trust; and, 
    3. the Trustee will transfer the property out of the Trust.
 2. In the event of any disposition involving all or part of the Property, the proceeds of such distribution, whether in the form of cash, property, digital assets, or other assets or securities, will be distributed to the Beneficiary, or any other person or entity designated by the Beneficiary to receive such distribution. In the event that dividends or distributions are paid in respect of any portion of the Trust Property, all of such dividends or distributions shall be distributed to the Beneficiary as soon as practicable following receipt of any such dividends or distributions, whether in the form of cash, property or securities
 3. Once the Trust has been fully established, as per the steps in **Section 3**, and throughout the life of the Trust, the Grantor holds no right of termination, nor is any termination subject to the life of Grantor or any decision or action taken by the Grantor. 
