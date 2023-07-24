@@ -1,4 +1,4 @@
-# testFabrica Trust Agreement
+# Fabrica Trust Agreement
 
 This Trust Agreement (this "**Agreement**") is entered into by the Grantor through the creation of a Fabrica NFT. The identifying information of this trust (the "**Trust**") may be found in the Fabrica NFT to which this Agreement is attached.
 
