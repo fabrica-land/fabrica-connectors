@@ -24,21 +24,21 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 3. **Beneficiary** means the individual or entity that is in control of the most recent Account owning the NFT. In the event the NFT has not yet been minted, or has been minted but has never yet been owned by any Account, the Beneficiary shall be the original Grantor. In the event ownership of the NFT is fractionalized (as discussed further in **Sections 6.1. and 7.3.**), then the defined term Beneficiary as used in this Agreement shall apply to the various owners of the NFT as a group.
 4. **Burn** is the result of a Confirmed Transaction of the `burn` or `burnBatch` functions on the Fabrica Smart Contract that results in the removal of the association between a Token ID and an Address, effectively locking the NFT.
 5. **Confirmed Transaction** means a transaction that has been recorded on Ethereum which is considered "finalized." A transaction on Ethereum is considered finalized when that transaction becomes part of a block on the chain with a supermajority link between two checkpoint blocks. 
-7. **Contract Account** means an Address controlled by a Smart Contract.
-8. **Creation Date** means the date and time at which the Trust was created by the Grantor.
-9. **Ethereum** means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum as of the Creation Date.
-10. **Fabrica Smart Contract** means the Smart Contract used to maintain records of ownership and management of the Fabrica NFT to which this Agreement is attached.
-11. **Fabrica NFT** means an NFT issued using the Fabrica Smart Contract.
-12. **Grantor** is the individual or entity who creates the Trust and grants the Property to the Trust.
-13. **Mint** means a Confirmed Transaction `mint()` or `mintBatch()` function on the Fabrica Smart Contract that results in the association of a Token ID to an Address.
-14. **Non Fungible Token (NFT)** means the digital asset stored on Ethereum with a unique identification code (Token ID) adhering to the ERC-1155 standards.
-15. **NFT Metadata** means the data directly stored within the NFT as well as external data stored on IPFS and linked within the NFT itself (using the fields `definition` and `configuration`). These will always include Token ID, Trust Name (stored as `definition.holdingEntity`), and Property legal description (`definition.claim`). Other additional information may be included to simplify property identification, verify past ownership and other activities.
-16. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field `definition.claim`. The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
-17. **Smart Contract** means the bytecode deployed on a specific Ethereum Address which acts as a program to execute and run a series of processes or interactions.
-18. **Token ID** means the unique and immutable identifier determined on Trust creation and assigned to the corresponding Fabrica NFT. The Token ID is created based on the digital signature of mutiple fields combined, including this Agreement.
-19. **Transfer** means any operation performed through the Smart Contract that assigns the NFT to a new non null Address.
-20. **Trustee** means the individual or entity appointed by the Beneficiary as the Trustee of the Trust.
-21. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata (in `definition.holdingEntity`).
+6. **Contract Account** means an Address controlled by a Smart Contract.
+7. **Creation Date** means the date and time at which the Trust was created by the Grantor.
+8. **Ethereum** means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum as of the Creation Date.
+9. **Fabrica Smart Contract** means the Smart Contract used to maintain records of ownership and management of the Fabrica NFT to which this Agreement is attached.
+10. **Fabrica NFT** means an NFT issued using the Fabrica Smart Contract.
+11. **Grantor** is the individual or entity who creates the Trust and grants the Property to the Trust.
+12. **Mint** means a Confirmed Transaction `mint()` or `mintBatch()` function on the Fabrica Smart Contract that results in the association of a Token ID to an Address.
+13. **Non Fungible Token (NFT)** means the digital asset stored on Ethereum with a unique identification code (Token ID) adhering to the ERC-1155 standards.
+14. **NFT Metadata** means the data directly stored within the NFT as well as external data stored on IPFS and linked within the NFT itself (using the fields `definition` and `configuration`). These will always include Token ID, Trust Name (stored as `definition.holdingEntity`), and Property legal description (`definition.claim`). Other additional information may be included to simplify property identification, verify past ownership and other activities.
+15. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the field `definition.claim`. The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
+16. **Smart Contract** means the bytecode deployed on a specific Ethereum Address which acts as a program to execute and run a series of processes or interactions.
+17. **Token ID** means the unique and immutable identifier determined on Trust creation and assigned to the corresponding Fabrica NFT. The Token ID is created based on the digital signature of mutiple fields combined, including this Agreement.
+18. **Transfer** means any operation performed through the Smart Contract that assigns the NFT to a new non null Address.
+19. **Trustee** means the individual or entity appointed by the Beneficiary as the Trustee of the Trust.
+20. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata (in `definition.holdingEntity`).
 
 
 ### 3. Establishing the Trust
