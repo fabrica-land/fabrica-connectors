@@ -78,7 +78,7 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 
 ### 8. Trustee obligations, fees and indemnification
 
-1. The Trustee shall:
+1. The Trustee shall (the below Trustee rights and duties referred to herein as the "**Trustee Rights**"):
    1. act as the representative of the Trust at the behest of the Beneficiary, and manage the Property of the Trust consistent with the terms of this Agreement;
    2. prepare, execute, and deliver any documents related to the continued existence of the Trust as well as in connection with any transfer of the NFT or any termination event as defined in **Section 10**;
    3. have no duty or liability to the Grantor or Beneficiary with respect to any change in value of any of the Property during the life of the Trust, nor shall the Trustee be liable to any prior or subsequent beneficiary or trustee, except to the extent such liability is created by any private agreement or by the willful actions of the Trustee; and,
@@ -98,7 +98,12 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 2. In the event of any disposition involving all or part of the Property, the proceeds of such distribution, whether in the form of cash, property, digital assets, or other assets or securities, will be distributed to the Beneficiary, or any other person or entity designated by the Beneficiary to receive such distribution. In the event that dividends or distributions are paid in respect of any portion of the Trust Property, all of such dividends or distributions shall be distributed to the Beneficiary as soon as practicable following receipt of any such dividends or distributions, whether in the form of cash, property or securities
 3. Once the Trust has been fully established, as per the steps in **Section 3**, and throughout the life of the Trust, the Grantor holds no right of termination, nor is any termination subject to the life of Grantor or any decision or action taken by the Grantor. 
 
-### 11. Miscellaneous
+### 11. Article 8 Opt-In 
+
+1. The Fabrica NFT, in connection with the corresponding Owner Rights and Trustee Rights, shall constitute, and shall irrevocably remain, a "security" solely for the purposes of, within the meaning of, and governed by, (1) Article 8 of the Uniform Commercial Code (including Section 8-102(a)(xviii) thereof) as in effect from time to time in the State of California, and (2) the corresponding provisions of the Uniform Commercial Code of any other applicable jurisdiction that now or hereafter substantially includes the 1994 revisions to Article 8 thereof as adopted by the American Law Institute and the National Conference of Commissioners on Uniform State Laws and approved by the American Bar Association on February 14, 1995 ("**UCC Article 8**"). 
+2. For the avoidance of doubt, other than in relation to UCC Article 8, the election for the Fabrica NFT and its corresponding rights to be treated as a "security" in **Section 11.1.** shall have no bearing on whether the Fabrica NFT is a security as used in any other context or regulation, nor shall it constitute an admission that the Fabrica NFT is a security for any purposes other than UCC Article 8. It is the intent of the parties that the Fabrica NFT shall not be a security for purposes of US federal securities law (including the Securities Act of 1933 and Securities Exchange Act of 1934), California securities laws, or any other applicable state, local, or foreign securities laws.
+
+### 12. Miscellaneous
 
 1. If any part of any provision of this Agreement or any other agreement, document or writing given pursuant to or in connection with this Agreement shall be invalid or unenforceable under applicable law, said part shall be ineffective to the extent of such invalidity only, without in any way affecting the remaining part of said provision or the remaining provisions of this Agreement.
 2. The headings of the sections and subsections of this Agreement are inserted for convenience of reference only and do not form a part or affect the meaning hereof. Wherever used herein, a pronoun in any gender shall be considered as including any other gender pronoun. References to the singular include the plural, and vice versa.
