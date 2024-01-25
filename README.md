@@ -1,6 +1,3 @@
-# connectors
-Legal documents, agreements, contracts and admin forms to connect real assets to their digital twins
+# Connectors
+Operating Agreements used to bridge real property rights to their digital representation as Fabrica tokens.
 
-
-
-and other things
