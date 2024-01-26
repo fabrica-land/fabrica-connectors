@@ -3,19 +3,24 @@
 
 #### v3.0
 
-- Major redesign for new protocol version.
+- Major redesign for new protocol version. 
+- Primary focus to rely as heavily as possible on onchain data. Removed all data inputs, and replaced with definitions pointing to relevant onchain locations.
+- Converted from a custodial system to self-custody.
+- Removed all signature lines and created definitions around finality and reliance on blockchain signatures exclusively.
+- Improved fraud prevention.
 
 #### v3.1
 
-- Minor fixes and references to fractional ownership.
+- Incorporated references to and consideration of fractional ownership.
+- Bolstered transfer definitions, including the concept that movement from one address to another does not necessarily equate a transfer.
 
 #### v3.2
 
-- Updated definition of confirmed transaction and consensus rules to reflect latest developments of Ethereum.
+- Updated definitions around finality to reflect latest developments of Ethereum.
 
 #### v3.3
 
-- Added *UCC article 8 opt-in* to reinforce the ability to use the tokens as collateral.
+- Added UCC article 8 opt-in, bolstering ability to create security interests in tokens when used as collateral.
 
 
 
