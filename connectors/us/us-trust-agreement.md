@@ -1,6 +1,6 @@
 # Fabrica Trust Agreement
 
-This Trust Agreement (this "**Agreement**") is entered into by the Grantor through the creation of a NFT. The identifying information of this trust (the "**Trust**") may be found in the NFT to which this Agreement is attached.
+This Trust Agreement (this "**Agreement**") is entered into by the Grantor through the creation of a Fabrica NFT. The identifying information of this trust (the "**Trust**") may be found in the Fabrica NFT to which this Agreement is attached.
 
 ### Recitals
 
@@ -28,15 +28,15 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 7. **Contract Account** means an Address controlled by a Smart Contract.
 8. **Creation Date** means the date and time at which the Trust was created by the Grantor.
 9. **Ethereum** means the Ethereum mainnet and the consensus blockchain for such mainnet (networkID:1, chainID:1) as recognized by the official Go Ethereum Client implemented at https://github.com/ethereum/go-ethereum as of the Creation Date.
-10. **Fabrica Smart Contract** means the Smart Contract used to maintain records of ownership and management of the NFT to which this Agreement is attached.
-11. **NFT** means a token issued using the Fabrica Smart Contract. In the event the NFT to which this Agreement is attached references an alternative Blockchain Network, such NFT may follow a different token standard or utilize a different definition. In this case, such NFT should be assumed to reference the token and standard on the Blockchain Network on which that NFT is tracked. In the event a NFT is wrapped, or transferred, to an alternative Blockchain Network, the NFT will reference the ultimate controlling interest token at any present moment.
+10. **Fabrica Smart Contract** means the Smart Contract used to maintain records of ownership and management of the Fabrica NFT to which this Agreement is attached.
+11. **Fabrica NFT** means an NFT issued using the Fabrica Smart Contract. In the event the Fabrica NFT to which this Agreement is attached references an alternative Blockchain Network, such Fabrica NFT may follow a different token standard or utilize a different definition of NFT. In this case, such Fabrica NFT should be assumed to reference the token and standard on the Blockchain Network to which that Fabrica NFT is attached. In the event a Fabrica NFT is wrapped, or transferred, to an alternative Blockchain Network, the Fabrica NFT will reference the ultimate controlling interest token at any present moment.
 12. **Grantor** is the individual or entity who creates the Trust and grants the Property to the Trust.
 13. **Mint** means a Confirmed Transaction `mint()` or `mintBatch()` function on the Fabrica Smart Contract that results in the association of a Token ID to an Address.
 14. **Non Fungible Token (NFT)** means the digital asset stored on Ethereum with a unique identification code (Token ID) adhering to the ERC-1155 standards.
 15. **NFT Metadata** means the data directly stored within the NFT as well as external data stored on IPFS and linked within the NFT itself (using the fields `definition` and `configuration`). These will always include Token ID, Trust Name (stored as `definition.holdingEntity`), and Property legal description (`definition.claim`). Other additional information may be included to simplify property identification, verify past ownership and other activities. Alternative Blockchain Networks may utilize different data configurations or definitions.
 16. **Property** is the bundle of rights identified in the legal description stored in the NFT Metadata under the fields `definition.claim` and `definition.offchainRegistrar`. The Property so described is the bundle of rights which is to be deeded into the Trust and held throughout the life of the Trust.
 17. **Smart Contract** means the bytecode deployed on a specific Blockchain Network Address which acts as a program to execute and run a series of processes or interactions.
-18. **Token ID** means the unique and immutable identifier determined on Trust creation and assigned to the corresponding NFT. The Token ID is determined using a function of the Fabrica Smart Contract that cryptographically proves the intent of the grantor to accept and adopt this Agreement and additional immutable fields.  
+18. **Token ID** means the unique and immutable identifier determined on Trust creation and assigned to the corresponding Fabrica NFT. The Token ID is created based on the digital signature of mutiple fields combined, including this Agreement.
 19. **Transfer** means any operation performed through the Smart Contract that assigns the NFT to a new non null Address.
 20. **Trustee** means the individual or entity appointed by the Beneficiary as the Trustee of the Trust.
 21. **Trust Name** means the name of the Trust, more particularly defined in the NFT Metadata (in `definition.holdingEntity`). It is recommended to encode the Token ID in the Trust Name using Base32 Crockford encoding.
@@ -47,11 +47,11 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 1. The process for entering into this Agreement is as follows:
    1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID using the function `generateId` on the Fabrica Smart Contract;
    2. the Grantor transfers the Property into the Trust by deed, or instructs a third party owner to do so, and records the deed with the relevant authority or recorder. The deed language shall specify both the Fabrica Smart Contract address and the Token ID;
-   3. the Grantor Mints the NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed to the NFT Metadata;
+   3. the Grantor Mints the Fabrica NFT through the Fabrica Smart Contract, attaching this Agreement and a copy of the conveyance deed to the NFT Metadata;
    4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the NFT will be kept by the Fabrica Smart Contract. 
 2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company. Prior to a Transfer, the trust should for all purposes be considered revocable by the Grantor, up to and until the specification of a Beneficiary. At the point a Beneficiary is specified, the trust is no longer revocable by the Grantor, and the Beneficiary then retains the sole right to distribute the Property and dissolve the Trust.
-3. In the event that the NFT is minted by a Contract Account, then the Grantor shall be considered the Beneficiary of the Trust, unless otherwise specified.
-4. In the event that the Property has been transferred into the Trust, but the NFT has not yet been minted and no Beneficiary has been specified, the Grantor shall be considered the Beneficiary of the Trust, unless otherwise specified.
+3. In the event that the Fabrica NFT is minted by a Contract Account, then the Grantor shall be considered the Beneficiary of the Trust, unless otherwise specified.
+4. In the event that the Property has been transferred into the Trust, but the Fabrica NFT has not yet been minted and no Beneficiary has been specified, the Grantor shall be considered the Beneficiary of the Trust, unless otherwise specified.
 
 ### 4. Transactions and Interactions with Fabrica Smart Contract
 
@@ -101,8 +101,8 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 
 ### 11. Article 8 Opt-In 
 
-1. The NFT, in connection with the corresponding Owner Rights and Trustee Rights, shall constitute, and shall irrevocably remain, a "security" solely for the purposes of, within the meaning of, and governed by, (1) Article 8 of the Uniform Commercial Code (including Section 8-102(a)(xviii) thereof) as in effect from time to time in the State of California, and (2) the corresponding provisions of the Uniform Commercial Code of any other applicable jurisdiction that now or hereafter substantially includes the 1994 revisions to Article 8 thereof as adopted by the American Law Institute and the National Conference of Commissioners on Uniform State Laws and approved by the American Bar Association on February 14, 1995 ("**UCC Article 8**"). 
-2. For the avoidance of doubt, other than in relation to UCC Article 8, the election for the NFT and its corresponding rights to be treated as a "security" in **Section 11.1.** shall have no bearing on whether the NFT is a security as used in any other context or regulation, nor shall it constitute an admission that the NFT is a security for any purposes other than UCC Article 8. It is the intent of the parties that the NFT shall not be a security for purposes of US federal securities law (including the Securities Act of 1933 and Securities Exchange Act of 1934), California securities laws, or any other applicable state, local, or foreign securities laws.
+1. The Fabrica NFT, in connection with the corresponding Owner Rights and Trustee Rights, shall constitute, and shall irrevocably remain, a "security" solely for the purposes of, within the meaning of, and governed by, (1) Article 8 of the Uniform Commercial Code (including Section 8-102(a)(xviii) thereof) as in effect from time to time in the State of California, and (2) the corresponding provisions of the Uniform Commercial Code of any other applicable jurisdiction that now or hereafter substantially includes the 1994 revisions to Article 8 thereof as adopted by the American Law Institute and the National Conference of Commissioners on Uniform State Laws and approved by the American Bar Association on February 14, 1995 ("**UCC Article 8**"). 
+2. For the avoidance of doubt, other than in relation to UCC Article 8, the election for the Fabrica NFT and its corresponding rights to be treated as a "security" in **Section 11.1.** shall have no bearing on whether the Fabrica NFT is a security as used in any other context or regulation, nor shall it constitute an admission that the Fabrica NFT is a security for any purposes other than UCC Article 8. It is the intent of the parties that the Fabrica NFT shall not be a security for purposes of US federal securities law (including the Securities Act of 1933 and Securities Exchange Act of 1934), California securities laws, or any other applicable state, local, or foreign securities laws.
 
 ### 12. Miscellaneous
 
