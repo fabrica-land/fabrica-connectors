@@ -46,9 +46,7 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 1. The process for entering into this Agreement is as follows:
    1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID using the function `generateId` on the Token Contract;
    2. the Grantor transfers the Property into the Trust by deed, or instructs a third party owner to do so, and records the deed with the relevant authority or recorder. The deed language shall specify both the Token Contract address and the Token ID;
-   3. the Grantor, or a
-
- third party instructed by the Grantor, Mints the Property Token through the Token Contract, attaching this Agreement and a copy of the conveyance deed to the Token Metadata;
+   3. the Grantor, or a third party instructed by the Grantor, Mints the Property Token through the Token Contract, attaching this Agreement and a copy of the conveyance deed to the Token Metadata;
    4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the Property Token will be kept by the Token Contract. 
 2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company. Prior to a Transfer, the trust should for all purposes be considered revocable by the Grantor, up to and until the specification of a Beneficiary. At the point a Beneficiary is specified, the trust is no longer revocable by the Grantor, and the Beneficiary then retains the sole right to distribute the Property and dissolve the Trust.
 3. In the event that the Property Token is minted by a Contract Account, then the Grantor shall be considered the Beneficiary of the Trust, unless otherwise specified.
