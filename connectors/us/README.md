@@ -2,7 +2,17 @@
 
 A method to operate on real estate using smart contracts by holding title in a custom legal entity.
 
-The Fabrica Trust is a legal entity structure designed by Fabrica to hold real property and represent its ownership onchain. The key principles employed in creation of the entity are:
+The Fabrica Trust is a legal entity structure designed by Fabrica to hold real property and represent its ownership onchain. 
+
+> [!TIP]
+>
+> The latest version can be found here: [Fabrica US Trust Agreement](us-trust-agreement.md)
+>
+> Previous versions are available here: [Changelog](CHANGELOG.md)
+
+
+
+The key principles employed in creation of the entity are:
 
 - Protection of the token holder's interest in the property. The token holder has full rights to and control over the property;
 - Onchain interoperability;
