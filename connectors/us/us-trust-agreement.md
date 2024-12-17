@@ -108,3 +108,48 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 2. The headings of the sections and subsections of this Agreement are inserted for convenience of reference only and do not form a part or affect the meaning hereof. Wherever used herein, a pronoun in any gender shall be considered as including any other gender pronoun. References to the singular include the plural, and vice versa.
 3. To the extent it is not contrary to a strong public policy of the jurisdiction, if any, having a more significant relationship to this Agreement, this Agreement, the rights and obligations of the parties hereto, and any claims and disputes relating thereto, shall be governed by and construed in accordance with the laws of the State of California (not including the choice of law rules thereof).
 4. The parties to this Agreement hereby consent to the non-exclusive jurisdiction of any State or Federal Court of competent jurisdiction located within the State of California, in the County of San Francisco, in connection with any actions or proceedings arising directly or indirectly from this Agreement.
+
+### 13. Token Recovery
+
+1. In the event that a Beneficiary loses access to their Property Token due to loss of private key or similar technical failure ("**Recovery Event**"), the following recovery process shall be followed:
+
+   1. The Beneficiary must submit a notarized affidavit ("**Recovery Affidavit**") to the Trust declaring:
+      1. the circumstances of the loss of access;
+      2. that no prior transfer, sale, or encumbrance of the Property Token has occurred;
+      3. agreement to indemnify the Trust against any claims arising from the recovery process; and,
+      4. acknowledgment that false statements may result in legal penalties.
+
+   2. Upon receipt of a Recovery Affidavit, the following validation process shall occur:
+      1. County Recorder verification that no recent title transfers or encumbrances exist;
+      2. Oracle validation of token ownership history and property status;
+      3. Validator consensus from a minimum of three (3) validators confirming:
+         1. the authenticity of the Recovery Affidavit;
+         2. verification of Beneficiary identity matching KYC records;
+         3. absence of suspicious activity; and,
+         4. compliance with all recovery requirements.
+
+   3. Upon successful validation:
+      1. the original Property Token shall be marked as "recovery-locked" through the Token Contract;
+      2. a new Property Token shall be issued with a recovery flag in its metadata;
+      3. the recovery action shall be recorded with the relevant County Recorder; and,
+      4. the Trust documentation shall be updated to reflect the recovery.
+
+2. Recovery Restrictions:
+   1. A Recovery Event may only be initiated by the last known Beneficiary or their legal representative.
+   2. No Recovery Event shall be processed if:
+      1. any pending transactions or encumbrances exist;
+      2. the Property Token has been transferred within the previous 30 days;
+      3. any validator identifies suspicious activity; or,
+      4. the County Recorder identifies conflicting records.
+
+3. Double-Spending Prevention:
+   1. The original Property Token shall be permanently locked upon successful recovery.
+   2. The recovery flag in the new Property Token's metadata shall be immutable.
+   3. Enhanced validation requirements shall apply to any subsequent transfers of a recovered Property Token.
+   4. False statements in a Recovery Affidavit shall constitute a material breach of this Agreement.
+
+4. Recovery Process Authority:
+   1. The Trust shall maintain sole authority to execute the recovery process.
+   2. All recovery actions must comply with applicable laws and regulations.
+   3. The Trust may require additional documentation or verification as needed.
+   4. Recovery fees, if any, shall be paid by the requesting Beneficiary.
