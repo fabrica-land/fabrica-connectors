@@ -83,8 +83,51 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 
 ### 7. Beneficiary Rights
 
-1. The Beneficiary, or an authorized third party, is authorized: (1) to execute any function via the Token Contract regarding any decision made by the Beneficiary with respect to the Property Token, the Property, and the Trust, including but not limited to transfer, lease, encumbrance, fractionalization, or partial or total sale of the Property Token, transfer, lock, or utilization of the Property Token within any Contract Account, or any other legal and available activity with respect to ownership of property represented by a digital token; and, (2) to dissolve the Trust and instruct the Trustee to distribute the Property as more fully described in **Section 10**. The Beneficiary shall possess beneficial enjoyment of and from the Property, including the right of possession, right of control, right of exclusion, right of enjoyment, and right of disposition, as well as the right to transfer, lend or dispose of such, and any other rights traditionally or typically associated with property ownership, subject to the provisions of the Trust. The Beneficiary shall have the right to borrow against the Property Token. The Beneficiary is entitled to all net income and receipts from the Property regardless of source, and is responsible for any debts, taxes, or other liabilities arising out of the Property or ownership of the Property Token. All net income accrued or undistributed at the termination of any interest shall be treated as if it had accrued or been received immediately after that termination. All of the above Beneficiary rights and entitlements are referred to herein as the "**Owner Rights**."
-2. The Owner Rights should be considered absolute, sole, and uncontrolled, except to the extent that such Owner Rights are in conflict with the other provisions of this Agreement.
+1. Token Ownership and Property Rights:
+   1. The Property Token represents complete beneficial ownership of the Property, subject to:
+      1. applicable jurisdictional requirements;
+      2. validator approvals as specified in **Section 5**; and
+      3. proportional rights in cases of fractionalization.
+   2. Token ownership confers all traditional property rights, including:
+      1. right of possession and control;
+      2. right of exclusion and enjoyment;
+      3. right of disposition and transfer;
+      4. right to receive income and proceeds; and
+      5. right to encumber or collateralize.
+
+2. Exercise of Property Rights:
+   1. The Beneficiary may execute property rights through:
+      1. direct token operations via the Token Contract;
+      2. validator-approved transactions when required;
+      3. smart contract interactions; and
+      4. traditional legal instruments where necessary.
+   2. Validator requirements:
+      1. specific actions may require validator verification;
+      2. validators ensure compliance with local regulations; and
+      3. the Token Contract enforces validator approvals.
+
+3. Fractional Ownership Framework:
+   1. The Property Token may be fractionalized through:
+      1. Token Contract's authorized mechanisms;
+      2. validator-approved splitting processes; and
+      3. smart contract-based tokenization protocols.
+   2. Fractional owners shall:
+      1. receive proportional shares of income and proceeds;
+      2. bear proportional responsibility for expenses;
+      3. participate in decisions based on ownership percentage; and
+      4. maintain individual compliance with requirements.
+
+4. The Beneficiary is responsible for:
+   1. any debts, taxes, or other liabilities;
+   2. maintaining compliance with validator requirements; and
+   3. proportional obligations in fractional scenarios.
+
+5. All rights and responsibilities above constitute the "**Owner Rights**."
+
+6. The Owner Rights are absolute and uncontrolled, except where:
+   1. conflicting with other Agreement provisions;
+   2. requiring validator approval under applicable jurisdictions; or
+   3. subject to fractional ownership constraints.
 
 ### 8. Property Token Transfer
 
