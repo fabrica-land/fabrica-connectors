@@ -1,6 +1,13 @@
 # Changelog
 ### Fabrica Trust
 
+#### v3.6
+
+- Enhanced clarity around token custody vs. beneficial ownership
+- Improved consistency in terminology around token operations
+- Added explicit conditions for beneficial ownership changes
+- Strengthened legal language regarding Contract Account interactions
+
 #### v3.5
 
 - Definitions: switched from `burn` to `redeem` to improve the readability of the Trust Agreement.
@@ -25,7 +32,7 @@
 
 #### v3.0
 
-- Major redesign for new protocol version. 
+- Major redesign for new protocol version.
 - Primary focus to rely as heavily as possible on onchain data. Removed all data inputs, and replaced with definitions pointing to relevant onchain locations.
 - Converted from a custodial system to self-custody.
 - Removed all signature lines and created definitions around finality and reliance on blockchain signatures exclusively.
