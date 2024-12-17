@@ -42,7 +42,7 @@
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
-| 3.6     | `bafkreib4tdpjz5zajrufrkcdrutluwtbzj2amnypnlcu6nigblvmhxwh7i` | https://gateway.pinata.cloud/ipfs/bafkreib4tdpjz5zajrufrkcdrutluwtbzj2amnypnlcu6nigblvmhxwh7i |
+| 3.6     | `bafkreib4tdpjz5zajrufrkcdrutluwtbzj2amnypnlcu6nigblvmhxwh7i` | https://ipfs.fabrica.land/ipfs/bafkreib4tdpjz5zajrufrkcdrutluwtbzj2amnypnlcu6nigblvmhxwh7i |
 | 3.5     | `QmNxY3ooc4VXbW6ETd1wVAxvajZYWu81U95MmWJiNBQw14` | https://ipfs.fabrica.land/ipfs/QmNxY3ooc4VXbW6ETd1wVAxvajZYWu81U95MmWJiNBQw14 |
 | 3.4     | `QmeRZqhU59Vpn4JQvggBVQ97uMfmS68utweUury8n5JLPR` | https://ipfs.fabrica.land/ipfs/QmeRZqhU59Vpn4JQvggBVQ97uMfmS68utweUury8n5JLPR |
 | 3.3     | `Qmf6Aia6gJfRgGyGroYft3kjxsLUhJEhMYVKPKj2JwY41Z` | http://ipfs.fabrica.land/ipfs/Qmf6Aia6gJfRgGyGroYft3kjxsLUhJEhMYVKPKj2JwY41Z |
