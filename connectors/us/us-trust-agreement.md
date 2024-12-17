@@ -101,6 +101,15 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
    3. have no duty or liability to the Grantor or Beneficiary with respect to any change in value of any of the Property during the life of the Trust, nor shall the Trustee be liable to any prior or subsequent beneficiary or trustee, except to the extent such liability is created by any private agreement or by the willful actions of the Trustee; and,
    4. not be required to furnish a bond or other security in any jurisdiction for the faithful performance of its duties.
 
+2. State-Specific Requirements and Multi-Jurisdiction Properties:
+   1. The Trust shall comply with all state-specific requirements as validated by appointed Validators for the jurisdiction(s) in which the Property is located.
+   2. For properties spanning multiple jurisdictions, compliance shall be maintained with the most stringent applicable requirements across all relevant jurisdictions.
+   3. The Trustee shall maintain and update jurisdiction-specific documentation as required by local regulations and validated by appointed Validators.
+   4. In cases of conflicting jurisdictional requirements, the Trust shall:
+      1. Prioritize compliance with the jurisdiction where the majority of the Property is located;
+      2. Implement additional safeguards as required by other relevant jurisdictions; and
+      3. Maintain separate jurisdiction-specific documentation when required by local regulations.
+
 ### 9. No individual ownership; Trust Proceeds
 
 1. Title to all of the assets of the Trust shall be vested in the Trust until the Trust dissolves; provided, however, that if the applicable laws of any jurisdiction require that title to any part of the assets of the Trust be vested in a party to the Trust, then title to that part of the assets of the Trust shall be vested in the Beneficiary to the extent so required, with such vested title remaining subject, however, to the assignment and transfer provisions of **Section 7**. Ownership of the Property will remain in the Trust despite the transfer of the Property Token until such time as the Trust is dissolved.
