@@ -47,29 +47,46 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
    1. The Grantor, or a third party instructed by the Grantor, creates the Trust by generating a Token ID using the function `generateId` on the Token Contract;
    2. the Grantor transfers the Property into the Trust by deed, or instructs a third party owner to do so, and records the deed with the relevant authority or recorder. The deed language shall specify both the Token Contract address and the Token ID;
    3. the Grantor, or a third party instructed by the Grantor, Mints the Property Token through the Token Contract, attaching this Agreement and a copy of the conveyance deed to the Token Metadata;
-   4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the Property Token will be kept by the Token Contract. 
+   4. Upon a Confirmed Transaction, the Beneficiary will be entitled to the Owner Rights (described below). Ownership records for the Property Token will be kept by the Token Contract.
 2. The Trust is not intended to be, shall not be deemed to be, and shall not be treated as a general partnership, limited partnership, joint venture, corporation or joint stock company. Prior to a Transfer, the trust should for all purposes be considered revocable by the Grantor, up to and until the specification of a Beneficiary. At the point a Beneficiary is specified, the trust is no longer revocable by the Grantor, and the Beneficiary then retains the sole right to distribute the Property and dissolve the Trust.
 3. In the event that the Property Token is minted by a Contract Account, then the Grantor shall be considered the Beneficiary of the Trust, unless otherwise specified.
 4. In the event that the Property has been transferred into the Trust, but the Property Token has not yet been minted and no Beneficiary has been specified, the Grantor shall be considered the Beneficiary of the Trust, unless otherwise specified.
 
-### 4. Transactions and Interactions with Token Contract
+### 4. Transactions and Interactions with Token Contract ###
 
 1. Any signature or execution made through the use of private keys on a Blockchain Network for any matters relating to the Property Token or the Trust shall be valid, sufficient, and final, as if signed in writing.
 2. Any action that the Beneficiary or Trustee takes with respect to the Property or the Trust shall be invalid unless first instructed through a Confirmed Transaction on interaction with the Token Contract and under the conditions of this Agreement.
 
-### 5. Grantor rights and representations
+### 5. Validators and Compliance ###
 
-1. The Grantor is responsible for funding of the Property into the Trust on creation. Following funding of the Trust, the Grantor (except in his capacity as Trustee and/or Beneficiary) will have no rights regarding the Property, the Property Token, or the management of the Trust, and will not retain any voting, director appointment, consent, approval, management, or revocation rights with respect to the Property or the Trust. Further, Grantor will not have any right to require the Beneficiary or Trustee to consult with Grantor with respect to the exercise of such rights and neither the Beneficiary nor the Trustee is required to consult with Grantor with respect to such rights, and the Grantor will have no right to remove or to replace the Beneficiary or Trustee. For purposes of this Agreement, the Trust is not deemed to be an affiliate of Grantor or of any of Grantor’s affiliates.
-2. Immediately prior to Grantor’s conveyance of the Property into the Trust, Grantor represents and warrants:
+1. **Validator Role and Authority**
+   1. Validators are entities authorized to verify and facilitate regulatory compliance for Trust operations.
+   2. The Beneficiary shall have the right to elect and appoint Validators through the Token Contract.
+   3. Validators shall act in accordance with jurisdiction-specific requirements as defined in the Token Metadata.
+
+2. **Validator Election Process**
+   1. The Beneficiary may elect Validators through the Token Contract's validator selection mechanism.
+   2. Elected Validators must meet qualification requirements specific to the Property's jurisdiction.
+   3. The election of a Validator shall be recorded on the Blockchain Network through a Confirmed Transaction.
+
+3. **Compliance Requirements**
+   1. Validators shall verify compliance with jurisdiction-specific requirements before approving Trust operations.
+   2. The Trust shall maintain compliance with local, state, and federal regulations as verified by appointed Validators.
+   3. Validator approval shall be required for specified Trust operations as determined by applicable regulations.
+
+### 6. Grantor rights and representations
+
+1. The Grantor is responsible for funding of the Property into the Trust on creation. Following funding of the Trust, the Grantor (except in his capacity as Trustee and/or Beneficiary) will have no rights regarding the Property, the Property Token, or the management of the Trust, and will not retain any voting, director appointment, consent, approval, management, or revocation rights with respect to the Property or the Trust. Further, Grantor will not have any right to require the Beneficiary or Trustee to consult with Grantor with respect to the exercise of such rights and neither the Beneficiary nor the Trustee is required to consult with Grantor with respect to such rights, and the Grantor will have no right to remove or to replace the Beneficiary or Trustee. For purposes of this Agreement, the Trust is not deemed to be an affiliate of Grantor or of any of Grantor's affiliates.
+2. Immediately prior to Grantor's conveyance of the Property into the Trust, Grantor represents and warrants:
    1. That Grantor has the full right, power, and authority to enter into and deliver this Agreement and to perform all covenants and agreements of Grantor hereunder.
-   2. That to the best of Grantor’s knowledge at the time of creation of the Trust, Grantor owns fee simple record title to the Property as described in the Property legal description attached to the Token Metadata; or, if Grantor does not own fee simple record title to the Property, then Grantor has attached to the Token Metadata the full expression of Grantor's title interest in the Property being granted into the Trust, and a description of any other outstanding interests in the Property at the time of Trust creation.
+   2. That to the best of Grantor's knowledge at the time of creation of the Trust, Grantor owns fee simple record title to the Property as described in the Property legal description attached to the Token Metadata; or, if Grantor does not own fee simple record title to the Property, then Grantor has attached to the Token Metadata the full expression of Grantor's title interest in the Property being granted into the Trust, and a description of any other outstanding interests in the Property at the time of Trust creation.
 
-### 6. Beneficiary Rights
+### 7. Beneficiary Rights
 
 1. The Beneficiary, or an authorized third party, is authorized: (1) to execute any function via the Token Contract regarding any decision made by the Beneficiary with respect to the Property Token, the Property, and the Trust, including but not limited to transfer, lease, encumbrance, fractionalization, or partial or total sale of the Property Token, transfer, lock, or utilization of the Property Token within any Contract Account, or any other legal and available activity with respect to ownership of property represented by a digital token; and, (2) to dissolve the Trust and instruct the Trustee to distribute the Property as more fully described in **Section 10**. The Beneficiary shall possess beneficial enjoyment of and from the Property, including the right of possession, right of control, right of exclusion, right of enjoyment, and right of disposition, as well as the right to transfer, lend or dispose of such, and any other rights traditionally or typically associated with property ownership, subject to the provisions of the Trust. The Beneficiary shall have the right to borrow against the Property Token. The Beneficiary is entitled to all net income and receipts from the Property regardless of source, and is responsible for any debts, taxes, or other liabilities arising out of the Property or ownership of the Property Token. All net income accrued or undistributed at the termination of any interest shall be treated as if it had accrued or been received immediately after that termination. All of the above Beneficiary rights and entitlements are referred to herein as the "**Owner Rights**."
 2. The Owner Rights should be considered absolute, sole, and uncontrolled, except to the extent that such Owner Rights are in conflict with the other provisions of this Agreement.
 
-### 7. Property Token Transfer
+### 8. Property Token Transfer
 
 1. The Beneficiary may transfer the Owner Rights by transferring the Property Token to another Account through the execution of any code or function that results in the assignment of the Token ID to a different Account. On a Confirmed Transaction, the owner of that Account shall become the new beneficiary of the Trust, and will also either become the new trustee or appoint the new trustee. The Trustee shall only serve as long as the Beneficiary is the Beneficiary of the Trust, and on transfer of the Property Token, the prior trustee is replaced by the transferee trustee. 
 2. Transfer of the Property Token shall effectuate the full assignment of all interests, rights, duties, liabilities, and obligations under the Trust. Therefore, use of the terms “Trustee” and “Beneficiary” within this Agreement shall reference the present interest trustee and present interest beneficiary, as such are identified by the record of the Property Token as maintained by the Token Contract. 
