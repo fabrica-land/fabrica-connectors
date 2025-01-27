@@ -14,10 +14,10 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 ### 1. Trust Purpose ###
 
 1. The purpose of the Trust is to create a legally enforceable link such that ownership of the Property Token determines ownership of the Property, so as to allow for time-efficient, cost-effective, accurate, and secure ownership, transfer, use, and enjoyment of real property title in the digital environment (the "**Trust Purpose**").
-
 2. On creation, the Trust will take and hold title to the Property, and ownership of the Trust will be represented by ownership of the Property Token. Regardless of the sale, hypothecation, or other transfer of the Property Token, title to the Property will remain in the Trust until such time as the then-present Beneficiary (or another authorized party) distributes the Property out of the Trust. To facilitate the Trust Purpose and maintain the integrity of the token-property relationship, the Trustee and Beneficiary agree that no deed or other agreement transferring the Property out of the Trust will be valid unless the Beneficiary has first ensured that the Property Token has been Redeemed through the `burn` or `burnBatch` functions of the Token Contract, making it permanently untransferrable.
-
 3. Subject to **Sections 6 and 7**, the owner(s) of the Account holding the Property Token shall be the Beneficiary of the Trust and have the right to appoint the Trustee. All rights and obligations in this Agreement shall at all times be linked to the owner of the Property Token, provided that such ownership is established through a valid Account and not merely through temporary custody by a Contract Account as detailed in **Section 7.3**. Rightful ownership (as distinct from temporary custody) of the Property Token confers full and total beneficial ownership of the Property.
+
+### 2. Definitions ###
 
 1. **Account** means an Externally Owned Account (EOA) on a Blockchain Network, which is an Address controlled directly by one or more private keys held by individuals or entities. An Account, being controlled by private keys, always identifies its controlling individual(s) or entity(ies) as the beneficial owner(s).
 2. **Address** means a public key address on a Blockchain Network.
