@@ -19,7 +19,7 @@ This Trust Agreement (this "**Agreement**") is entered into by the Grantor throu
 
 ### 2. Definitions ###
 
-1. **Account** means an Externally Owned Account (EOA) on a Blockchain Network, which is an Address controlled directly by one or more private keys held by individuals or entities. An Account, being controlled by private keys, always identifies its controlling individual(s) or entity(ies) as the beneficial owner(s).
+1. **Account** means an Externally Owned Account (EOA) on a Blockchain Network, which is an Address controlled directly by one or more private keys held by individuals or entities.
 2. **Address** means a public key address on a Blockchain Network.
 3. **Beneficiary** means the individual(s) or entity(ies) that control(s) the Account or Contract Account currently holding the Property Token, provided that such Account or Contract Account establishes beneficial ownership as defined in **Section 7**. In the event the Property Token has not yet been minted, or has been minted but has not yet been owned by any Account, the Beneficiary shall be the original Grantor. In the event ownership of the Property Token is fractionalized (as discussed further in **Sections 6.1. and 7.3.**), then the defined term Beneficiary as used in this Agreement shall apply to the various owners of the Property Token as a group.
 4. **Blockchain Network** means any distributed ledger technology network used to maintain records of ownership and management of the Property Token to which this Agreement is attached. The relevant blockchain network may change due to actions of the Beneficiary, including the wrapping of the Property Token to a different blockchain network or the minting of the Property Token on a different blockchain network.
