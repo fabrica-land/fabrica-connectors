@@ -11,6 +11,9 @@
 - Retained Article 8 as supplementary framework when tokens are held through securities intermediaries with express agreement
 - Resolved CER/investment property conflict: token is CER except when held as Article 8 financial asset
 - Clarified that UCC treatment does not affect securities law classification
+- Reframed deed validity as Trustee condition precedent (shall not execute unless token burned) rather than deed invalidity
+- Trust termination now requires deed in recordable form with cryptographically signed authorization from last token controller
+- Simplified termination language using "burn" for clear onchain verification
 
 #### v3.6
 
