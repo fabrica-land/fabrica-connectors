@@ -1,6 +1,13 @@
 # Changelog
 ### Fabrica Trust
 
+#### v3.7
+
+- Adopted UCC Article 12 as primary framework for token treatment, designating Property Tokens as controllable electronic records
+- Added explicit support for onchain smart contract enforcement mechanisms under Article 9
+- Retained Article 8 as supplementary framework for custodial arrangements with securities intermediaries
+- Clarified that UCC treatment does not affect securities law classification
+
 #### v3.6
 
 - Enhanced clarity around token custody vs. beneficial ownership
