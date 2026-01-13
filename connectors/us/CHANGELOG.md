@@ -3,9 +3,13 @@
 
 #### v3.7
 
-- Adopted UCC Article 12 as primary framework for token treatment, designating Property Tokens as controllable electronic records
-- Added explicit support for onchain smart contract enforcement mechanisms under Article 9
-- Retained Article 8 as supplementary framework for custodial arrangements with securities intermediaries
+- Adopted UCC Article 12 as primary framework, designating Property Tokens as controllable electronic records (CERs)
+- Added explicit definition of Article 12 "control" requirements and how blockchain mechanisms satisfy them
+- Smart contracts may serve as control mechanisms; programmed restrictions do not defeat control
+- Enforcement standards in smart contracts are agreed standards under UCC § 9-603, with explicit preservation of non-waivable debtor rights under § 9-602
+- Added qualifying purchaser provision enabling take-free transfers for good faith buyers
+- Retained Article 8 as supplementary framework when tokens are held through securities intermediaries with express agreement
+- Resolved CER/investment property conflict: token is CER except when held as Article 8 financial asset
 - Clarified that UCC treatment does not affect securities law classification
 
 #### v3.6
