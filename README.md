@@ -1,8 +1,47 @@
 # Connectors
-Connectors are legal frameworks, also known as operating agreements, that bridge the gap between real property rights and their digital representations as onchain assets.
 
-The connectors repository houses agreements used to create either entity or non-entity wrappers. These wrappers hold and represent real property rights onchain. A variety of methods have been theorized and utilized across attempts to digitize property rights. This collection currently contains a single operating agreement, the [Fabrica Trust](connectors/us/), which has been under continuous development by Fabrica since 2017. Looking ahead, we plan to expand our repository with additional connectors tailored to different use cases and legal jurisdictions.
+**Connectors** are legal frameworks that bridge real property rights and their digital representations as onchain assets.
 
-A critical attribute of a connector is its capability to seamlessly link a physical property to an onchain asset. This link ensures that the owner of the digital asset has complete control over and access to the corresponding property. While methods and control styles may vary, the most effective connectors establish a connection between property and token such that owning the token equates to owning the property, without the need for third-party notifications, filings, or additional actions post-setup.
+This repository contains the operating agreements used to create entity and non-entity wrappers that hold and represent real property rights onchain. The goal: owning the token means owning the property, with no intermediaries, notifications, or filings required after setup.
 
-For a comprehensive overview of our protocol, as well as more information on connectors and Fabrica's specific implementations, please visit [https://docs.fabrica.land](https://docs.fabrica.land).
+## Available Connectors
+
+| Jurisdiction | Connector | Status |
+|--------------|-----------|--------|
+| United States | [Fabrica Trust Agreement](connectors/us/) | Active (v4.0) |
+
+## The Fabrica Trust
+
+The [Fabrica Trust Agreement](connectors/us/us-trust-agreement.md) is a nominee trust structure designed to hold real property and represent its ownership onchain. It has been under continuous development by Fabrica since 2017.
+
+**Key features:**
+- Token holder is always the beneficiary (owner) of the property
+- Onchain transactions are the source of truth for ownership
+- No third-party involvement in or control over the trust
+- Works even if Fabrica disappears — the legal mechanism is self-contained
+
+**v4.0 highlights:**
+- Two-tier recovery mechanism for lost keys or death (no stuck assets)
+- UCC Article 12 integration for secured lending
+- Smart Wallet support (multisig, account abstraction)
+
+## Repository Structure
+
+```
+connectors/
+├── us/
+│   ├── us-trust-agreement.md   # The trust agreement (current version)
+│   ├── CHANGELOG.md            # Version history and changes
+│   └── README.md               # US trust details and key terms
+├── DISCLAIMER.md               # Legal disclaimer
+└── README.md                   # This file
+```
+
+## Learn More
+
+- [Fabrica Documentation](https://docs.fabrica.land) — Protocol overview and implementation details
+- [Legal Wrappers Guide](https://docs.fabrica.land/docs/legal-wrappers) — Deep dive on the trust structure
+
+## Disclaimer
+
+These materials are for informational purposes only and do not constitute legal advice. See [DISCLAIMER.md](DISCLAIMER.md) for full terms.
