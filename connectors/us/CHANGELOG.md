@@ -1,6 +1,34 @@
 # Changelog
 ### Fabrica Trust
 
+#### v4.0
+
+**Alternative dissolution (Sections 10.2–10.5):** Three new paths to dissolve the Trust when the Beneficiary cannot Redeem the Property Token:
+- **Uncontested recovery (10.2):** Record a Notice of Lost Token Control at the county → 90-day Quiet Period → Deed of Distribution. The process runs entirely through public records with no intermediary required. An eligibility gate protects lenders: if the token is in a Functional Contract (lending, escrow), the Beneficiary must first cause it to be returned
+- **Estate succession (10.3):** Same process, with the legal successor (executor, heir) stepping in using probate documents. Successors who inherit wallet access need no special process
+- **Court-ordered dissolution (10.4):** Fallback for theft, disputes, or contested claims. Court order substitutes for the burn requirement
+- **Void Token (10.5):** After alternative dissolution, the token continues to exist onchain but confers no rights. Control of a Void Token confers no property interest under UCC Article 12
+
+**Smart Wallet support:**
+- Introduced "Smart Wallet" (multisig, account-abstraction wallets) and "Functional Contract" (escrow, bridges, lending) as short-form defined terms (Section 2.6)
+- All references to the holder of the Property Token now consistently use "Account or Smart Wallet" and "private keys or signing credentials" where applicable
+- Smart Wallet DoS prevention: only transactions where the Smart Wallet successfully executes an outbound action halt the Quiet Period — external calls to the wallet do not
+
+**Unauthorized transfers and lender protection (Sections 7.5, 11.4):**
+- A Transfer resulting from theft or key compromise does not transfer beneficial ownership; the prior Beneficiary retains Owner Rights
+- Protected secured party provision extends qualifying purchaser protection to good-faith lenders who take a security interest without notice of the unauthorized Transfer
+
+**Other changes:**
+- **Section 7.1:** Trustee default rule — unless separately appointed, the Beneficiary is deemed to be the Trustee
+- **Section 6.3:** Fractionalization governance is governed by a separate agreement; this Agreement applies to fractional owners as a group
+- **Section 3.1.3:** Conveyance deed attachment is optional (facilitates validation but not required for legal effectiveness)
+- **Section 8.1.3:** Trustee liability limited to willful misconduct or gross negligence
+- **Section 4.1:** Digital signature equivalence applies "to the maximum extent permitted by applicable law"
+- **Definitions (Section 2):** Added Alternative Dissolution Event, Notice of Lost Token Control, Quiet Period, Void Token; clarified Beneficiary definition to account for functional contract custody, unauthorized transfers, and loss of token control
+- **Readability:** Shorter sentences, bullet-point formatting, consistent terminology throughout
+
+IPFS CID: `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue`
+
 #### v3.7
 
 - Adopted UCC Article 12 as primary framework, designating Property Tokens as controllable electronic records (CERs)
@@ -56,6 +84,7 @@
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| 4.0     | `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue` | https://ipfs.fabrica.land/ipfs/bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue |
 | 3.7     | `bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4` | https://ipfs.fabrica.land/ipfs/bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4 |
 | 3.6     | `bafkreifiv6x6a77v6gnjxw3tfxo5exzo736x6fvr2inx46qpn3woemgxky` | https://ipfs.fabrica.land/ipfs/bafkreifiv6x6a77v6gnjxw3tfxo5exzo736x6fvr2inx46qpn3woemgxky |
 | 3.5     | `QmNxY3ooc4VXbW6ETd1wVAxvajZYWu81U95MmWJiNBQw14` | https://ipfs.fabrica.land/ipfs/QmNxY3ooc4VXbW6ETd1wVAxvajZYWu81U95MmWJiNBQw14 |

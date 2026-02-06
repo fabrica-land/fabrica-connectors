@@ -1,44 +1,73 @@
-# Fabrica Trust Agreement
+# Fabrica Trust Agreement (US)
 
-A method to operate on real estate using smart contracts by holding title in a custom legal entity.
+A legal framework for operating on real estate using smart contracts by holding title in a nominee trust.
 
-The Fabrica Trust is a legal entity structure designed by Fabrica to hold real property and represent its ownership onchain. 
+> **Quick links:**
+> - [Trust Agreement (v4.0)](us-trust-agreement.md) — The current version
+> - [Changelog](CHANGELOG.md) — Version history and detailed changes
 
-> [!TIP]
->
-> The latest version can be found here: [Fabrica US Trust Agreement](us-trust-agreement.md)
->
-> Previous versions are available here: [Changelog](CHANGELOG.md)
+## Overview
 
+The Fabrica Trust is a nominee trust where the token holder is always the beneficiary (owner). The trust holds a single piece of real property, and owning the Property Token means owning the property — no intermediaries required.
 
+The trust is created under California law but has been used across multiple US states. The design allows the beneficiary to serve as their own trustee, leaving no doubt that the token holder owns the property.
 
-The key principles employed in creation of the entity are:
+## Design Principles
 
-- Protection of the token holder's interest in the property. The token holder has full rights to and control over the property;
-- Onchain interoperability;
-- Chain as final source of truth with respect to ownership;
-- Minimize on-ramp and off-ramp friction and processes;
-- Low setup and maintenance costs. Nominee trusts with no professional trustee have minimal costs and/or registration requirements;
-- No 3rd party involvement in or control over the trust.
+| Principle | Implementation |
+|-----------|----------------|
+| **Token = Title** | Owning the Property Token confers full beneficial ownership of the property |
+| **Onchain Truth** | The blockchain is the authoritative record of ownership |
+| **No Gatekeepers** | The trust works even if Fabrica disappears |
+| **Self-Custody** | The beneficiary controls their own keys and their own property |
+| **Interoperability** | Works with lending protocols, escrow, bridges, and smart wallets |
 
-The Fabrica Trust is created under California law, but has been used in a variety of states. Efforts are underway to extend its use for digitizing title in additional jurisdictions.
+## Key Concepts
 
-# Structure and Functionality
+### Beneficiary & Trustee
 
-The Fabrica Trust operates as a nominee trust, where the token holder is always the beneficiary. The beneficiary is the owner of the property and ultimately responsible for all benefits and obligations of ownership. The trust is designed to hold a single piece of real property.
+- **Beneficiary**: The token holder — has all economic rights, controls the property, responsible for taxes and obligations
+- **Trustee**: The titleholder of record — acts at the beneficiary's direction. Unless separately appointed, the beneficiary is deemed to be the trustee
 
-The trust's design allows the beneficiary to use blockchain technology for managing property ownership and executing transactions—-both conventional and novel—-directly onchain. Because the purpose of the trust is to facilitate the use of blockchain technology, the beneficiary may also serve as the trustee, leaving no doubt that the subject property is owned by the token holder.
+### Account Types (Section 7.3)
 
-# Key Terms
+| Type | Examples | Effect on Ownership |
+|------|----------|---------------------|
+| **Account (EOA)** | Standard wallet | Owner of the wallet is the Beneficiary |
+| **Smart Wallet** | Multisig, Safe, account-abstraction wallets | Controller(s) of the wallet are the Beneficiary(ies) |
+| **Functional Contract** | Lending protocol, escrow, bridge | Custody only — original Beneficiary retains ownership |
 
-- Mere Titleholder - The trustee serves solely as the titleholder, with responsibilities limited to managing the trust property at the direction of the beneficiary.
+### Trust Dissolution (Section 10)
 
-- Right to Economic Benefit - The beneficiary holds all economic and beneficial rights to the property, including all net income and receipts from any source whatsoever.
+The trust can be dissolved in several ways:
 
-- Termination - The beneficiary can terminate the trust and redeem legal title to the property by burning the associated token and directing the trustee to transfer the property out of the trust.
+1. **Standard (10.1)**: Burn the token → Trustee executes deed
+2. **Uncontested Recovery (10.2)**: Lost keys? Record a Notice at the county → wait 90 days → execute deed. No intermediary required
+3. **Estate Succession (10.3)**: Same as 10.2, but the legal successor (executor, heir) steps in with probate documents
+4. **Court Order (10.4)**: For theft, disputes, or contested claims — court order substitutes for the burn requirement
 
-- Ownership for Tax Purposes - The beneficiary is treated as the owner of the property for all federal, state and local tax purposes.
+### UCC Article 12 (Section 11)
 
-# Docs
+The Property Token is a "controllable electronic record" under UCC Article 12. This enables:
+- Secured lending with the token as collateral
+- Qualifying purchaser protection for good-faith buyers
+- Clear priority rules for competing claims
 
-For more information on Fabrica's history and use of the Fabrica Trust Agreement, please visit [https://docs.fabrica.land/docs/legal-wrappers](https://docs.fabrica.land/docs/legal-wrappers).
+## Version History
+
+See [CHANGELOG.md](CHANGELOG.md) for the complete history. Major versions:
+
+| Version | Highlights |
+|---------|------------|
+| **4.0** | Alternative dissolution (recovery mechanism), Smart Wallet support, UCC Article 12 integration |
+| **3.7** | UCC Article 12 as primary framework |
+| **3.0** | Self-custody redesign, onchain-first architecture |
+
+## Learn More
+
+- [Fabrica Documentation](https://docs.fabrica.land) — Protocol overview
+- [Legal Wrappers Guide](https://docs.fabrica.land/docs/legal-wrappers) — Deep dive on the trust structure
+
+## Disclaimer
+
+These materials are for informational purposes only and do not constitute legal advice. See [DISCLAIMER.md](../../DISCLAIMER.md) for full terms.
