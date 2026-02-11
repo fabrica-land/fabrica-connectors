@@ -1,6 +1,19 @@
 # Changelog
 ### Fabrica Trust
 
+#### v4.1 (draft)
+
+**Anti-merger hardening (Sections 2.26, 6.2, 7.1, 8.1, 12.5–12.7):** Structural changes to defend against the doctrinal argument that merger of legal and equitable interests collapses the Trust when the Beneficiary also serves as Trustee:
+
+- **Beneficial Interest Holders (Section 2.26):** New defined term recognizing that equitable interests in the Trust are held not only by the present Beneficiary but also by determinable future Beneficiaries (via token transfer) and legal successors (via Section 10.3). Explicitly preserves tax pass-through treatment
+- **Beneficiary definition (Section 2.3):** Clarified as referring to the present interest holder; cross-references the broader Beneficial Interest Holders class
+- **Owner Rights qualification (Section 6.2):** "Absolute, sole, and uncontrolled" now expressly scoped to the present Beneficiary's exercise of rights during their period of ownership, and does not extinguish contingent equitable interests
+- **Trustee fiduciary scope (Section 7.1):** Trustee duties now expressly run to all Beneficial Interest Holders, with future/contingent interests limited to preservation of the trust res — no present right of action or control granted
+- **Trustee obligations (Section 8.1.1):** Trustee acts for the benefit of all Beneficial Interest Holders
+- **Anti-merger savings clause (Section 12.5):** If any provision would cause merger, it is automatically construed/reformed to preserve trust continuity to the minimum extent required
+- **Springing Continuity Trustee (Section 12.6):** If a court finds merger, a temporary special trustee activates solely to preserve the trust res. Beneficiary-directed appointment, no platform dependency, no standing professional trustee, no discretion over distributions. Terminates automatically on transfer, new trustee appointment, or dissolution
+- **Tax treatment (Section 12.7):** Explicit statement that contingent future interests do not alter pass-through treatment
+
 #### v4.0
 
 **Alternative dissolution (Sections 10.2–10.5):** Three new paths to dissolve the Trust when the Beneficiary cannot Redeem the Property Token:
