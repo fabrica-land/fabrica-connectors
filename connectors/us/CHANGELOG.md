@@ -1,6 +1,15 @@
 # Changelog
 ### Fabrica Trust
 
+#### v4.2 (draft)
+
+**Production-readiness hardening (Sections 10.2, 10.3, 11.6, 12.3–12.4):** Operational and recordation changes to support deed-out actions at scale across multiple jurisdictions:
+
+- **Recordation hardening (Section 10.2):** If the county recorder refuses to accept the Notice of Lost Token Control, the Beneficiary must proceed to the court-ordered path under Section 10.4. Contest mechanism broadened from "counter-notice" to any instrument permitted by applicable recording statutes (lis pendens, affidavit of adverse claim, or equivalent). If contested, process halts and routes to Section 10.4. Notice delivery expanded to include known lienholders and encumbrance holders in addition to the Property address
+- **Succession evidence gating (Section 10.3.2):** Proof of legal succession must now be valid under the laws of the jurisdiction where the Property is located. If the legal successor cannot obtain sufficient proof, mandatory fallback to court-ordered dissolution under Section 10.4
+- **Real-property law savings clause (Section 11.6):** Explicit statement that UCC Article 12 "control" does not displace real-property recording statutes, deed requirements, or title-vesting rules. Token control determines rights in the token as a CER, but transfer of record title requires a deed satisfying applicable real-property law
+- **Situs-law and venue preservation (Sections 12.3–12.4):** California governing-law clause now expressly preserves mandatory situs-state rules for conveyancing, recording, lien priority, and probate. Venue clause preserves jurisdiction in the Property's location for quiet title, foreclosure, and similar real-property actions
+
 #### v4.1 (draft)
 
 **Anti-merger hardening (Sections 2.26, 6.2, 7.1, 8.1, 12.5–12.7):** Structural changes to defend against the doctrinal argument that merger of legal and equitable interests collapses the Trust when the Beneficiary also serves as Trustee:
