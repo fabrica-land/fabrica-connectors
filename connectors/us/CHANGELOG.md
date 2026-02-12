@@ -1,7 +1,7 @@
 # Changelog
 ### Fabrica Trust
 
-#### v4.2 (draft)
+#### v4.2
 
 **Production-readiness hardening (Sections 10.2, 10.3, 11.6, 12.3–12.4):** Operational and recordation changes to support deed-out actions at scale across multiple jurisdictions:
 
@@ -10,7 +10,9 @@
 - **Real-property law savings clause (Section 11.6):** Explicit statement that UCC Article 12 "control" does not displace real-property recording statutes, deed requirements, or title-vesting rules. Token control determines rights in the token as a CER, but transfer of record title requires a deed satisfying applicable real-property law
 - **Situs-law and venue preservation (Sections 12.3–12.4):** California governing-law clause now expressly preserves mandatory situs-state rules for conveyancing, recording, lien priority, and probate. Venue clause preserves jurisdiction in the Property's location for quiet title, foreclosure, and similar real-property actions
 
-#### v4.1 (draft)
+IPFS CID: `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi`
+
+#### v4.1
 
 **Anti-merger hardening (Sections 2.26, 6.2, 7.1, 8.1, 12.5–12.7):** Structural changes to defend against the doctrinal argument that merger of legal and equitable interests collapses the Trust when the Beneficiary also serves as Trustee:
 
@@ -106,6 +108,7 @@ IPFS CID: `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue`
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| 4.2     | `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi` | https://ipfs.fabrica.land/ipfs/bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi |
 | 4.0     | `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue` | https://ipfs.fabrica.land/ipfs/bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue |
 | 3.7     | `bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4` | https://ipfs.fabrica.land/ipfs/bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4 |
 | 3.6     | `bafkreifiv6x6a77v6gnjxw3tfxo5exzo736x6fvr2inx46qpn3woemgxky` | https://ipfs.fabrica.land/ipfs/bafkreifiv6x6a77v6gnjxw3tfxo5exzo736x6fvr2inx46qpn3woemgxky |
