@@ -8,7 +8,7 @@ This repository contains the operating agreements used to create entity and non-
 
 | Jurisdiction | Connector | Status |
 |--------------|-----------|--------|
-| United States | [Fabrica Trust Agreement](connectors/us/) | Active (v4.0) |
+| United States | [Fabrica Trust Agreement](connectors/us/) | Active (v4.2) |
 
 ## The Fabrica Trust
 
@@ -20,8 +20,10 @@ The [Fabrica Trust Agreement](connectors/us/us-trust-agreement.md) is a nominee 
 - No third-party involvement in or control over the trust
 - Works even if Fabrica disappears — the legal mechanism is self-contained
 
-**v4.0 highlights:**
+**v4.2 highlights:**
 - Two-tier recovery mechanism for lost keys or death (no stuck assets)
+- Anti-merger hardening (Beneficial Interest Holders, springing Continuity Trustee)
+- Production-readiness: sworn-affidavit form for universal county-recorder acceptance
 - UCC Article 12 integration for secured lending
 - Smart Wallet support (multisig, account abstraction)
 

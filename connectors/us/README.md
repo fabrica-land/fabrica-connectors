@@ -3,7 +3,7 @@
 A legal framework for operating on real estate using smart contracts by holding title in a nominee trust.
 
 > **Quick links:**
-> - [Trust Agreement (v4.0)](us-trust-agreement.md) — The current version
+> - [Trust Agreement (v4.2)](us-trust-agreement.md) — The current version
 > - [Changelog](CHANGELOG.md) — Version history and detailed changes
 
 ## Overview
@@ -59,6 +59,7 @@ See [CHANGELOG.md](CHANGELOG.md) for the complete history. Major versions:
 
 | Version | Highlights |
 |---------|------------|
+| **4.2** | Anti-merger hardening, production-readiness: sworn-affidavit form for county recording, situs-law preservation, real-property savings clause |
 | **4.0** | Alternative dissolution (recovery mechanism), Smart Wallet support, UCC Article 12 integration |
 | **3.7** | UCC Article 12 as primary framework |
 | **3.0** | Self-custody redesign, onchain-first architecture |

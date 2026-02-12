@@ -1,6 +1,30 @@
 # Changelog
 ### Fabrica Trust
 
+#### v4.2
+
+**Production-readiness hardening (Sections 10.2, 10.3, 11.6, 12.3–12.4):** Operational and recordation changes to support deed-out actions at scale across multiple jurisdictions:
+
+- **Recordation hardening (Sections 2.23, 10.2):** Notice of Lost Token Control now defined as a sworn affidavit (or equivalent sworn recordable instrument), executed under oath and notarized in whatever form the situs jurisdiction requires — ensuring universal county-recorder acceptance across all 50 states. If the county recorder refuses to accept the Notice, the Beneficiary must proceed to the court-ordered path under Section 10.4. Contest mechanism broadened from "counter-notice" to any instrument permitted by applicable recording statutes (lis pendens, affidavit of adverse claim, or equivalent). If contested, process halts and routes to Section 10.4. Notice delivery expanded to include known lienholders and encumbrance holders in addition to the Property address
+- **Succession evidence gating (Section 10.3.2):** Proof of legal succession must now be valid under the laws of the jurisdiction where the Property is located. If the legal successor cannot obtain sufficient proof, mandatory fallback to court-ordered dissolution under Section 10.4
+- **Real-property law savings clause (Section 11.6):** Explicit statement that UCC Article 12 "control" does not displace real-property recording statutes, deed requirements, or title-vesting rules. Token control determines rights in the token as a CER, but transfer of record title requires a deed satisfying applicable real-property law
+- **Situs-law and venue preservation (Sections 12.3–12.4):** California governing-law clause now expressly preserves mandatory situs-state rules for conveyancing, recording, lien priority, and probate. Venue clause preserves jurisdiction in the Property's location for quiet title, foreclosure, and similar real-property actions
+
+IPFS CID: `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi`
+
+#### v4.1
+
+**Anti-merger hardening (Sections 2.26, 6.2, 7.1, 8.1, 12.5–12.7):** Structural changes to defend against the doctrinal argument that merger of legal and equitable interests collapses the Trust when the Beneficiary also serves as Trustee:
+
+- **Beneficial Interest Holders (Section 2.26):** New defined term recognizing that equitable interests in the Trust are held not only by the present Beneficiary but also by determinable future Beneficiaries (via token transfer, Smart Wallet transfer, or explicit assignment under Section 7.3(b)(ii)) and legal successors (via Section 10.3). Explicitly preserves tax pass-through treatment
+- **Beneficiary definition (Section 2.3):** Clarified as referring to the present interest holder; cross-references the broader Beneficial Interest Holders class
+- **Owner Rights qualification (Section 6.2):** "Absolute, sole, and uncontrolled" now expressly scoped to the present Beneficiary's exercise of rights during their period of ownership, and does not extinguish contingent equitable interests
+- **Trustee fiduciary scope (Section 7.1):** Trustee duties now expressly run to all Beneficial Interest Holders, with future/contingent interests limited to preservation of the trust res — no present right of action or control granted except narrow procedural standing to petition for Continuity Trustee appointment under Section 12.6
+- **Trustee obligations (Section 8.1.1):** Trustee acts for the benefit of all Beneficial Interest Holders
+- **Anti-merger savings clause (Section 12.5):** If any provision would cause merger, it is automatically construed/reformed to preserve trust continuity to the minimum extent required
+- **Springing Continuity Trustee (Section 12.6):** If a court finds merger, a temporary special trustee activates solely to preserve the trust res. Beneficiary-directed appointment, no platform dependency, no standing professional trustee, no discretion over distributions. Terminates automatically on transfer, new trustee appointment, or dissolution
+- **Tax treatment (Section 12.7):** Explicit statement that contingent future interests do not alter pass-through treatment
+
 #### v4.0
 
 **Alternative dissolution (Sections 10.2–10.5):** Three new paths to dissolve the Trust when the Beneficiary cannot Redeem the Property Token:
@@ -84,6 +108,7 @@ IPFS CID: `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue`
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| 4.2     | `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi` | https://ipfs.fabrica.land/ipfs/bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi |
 | 4.0     | `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue` | https://ipfs.fabrica.land/ipfs/bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue |
 | 3.7     | `bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4` | https://ipfs.fabrica.land/ipfs/bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4 |
 | 3.6     | `bafkreifiv6x6a77v6gnjxw3tfxo5exzo736x6fvr2inx46qpn3woemgxky` | https://ipfs.fabrica.land/ipfs/bafkreifiv6x6a77v6gnjxw3tfxo5exzo736x6fvr2inx46qpn3woemgxky |
