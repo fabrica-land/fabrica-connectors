@@ -3,7 +3,7 @@
 A legal framework for operating on real estate using smart contracts by holding title in a nominee trust.
 
 > **Quick links:**
-> - [Trust Agreement (v4.2)](us-trust-agreement.md) — The current version
+> - [Trust Agreement (v4.3)](us-trust-agreement.md) — The current version
 > - [Changelog](CHANGELOG.md) — Version history and detailed changes
 
 ## Overview
@@ -45,6 +45,7 @@ The trust can be dissolved in several ways:
 2. **Uncontested Recovery (10.2)**: Lost keys? Record a Notice at the county → wait 90 days → execute deed. No intermediary required
 3. **Estate Succession (10.3)**: Same as 10.2, but the legal successor (executor, heir) steps in with probate documents
 4. **Court Order (10.4)**: For theft, disputes, or contested claims — court order substitutes for the burn requirement
+5. **Involuntary Loss of Title (10.5)**: When record title leaves the Trust by external operation of law (tax sale, foreclosure, eminent domain, etc.), the Trust dissolves automatically on recording of the operative instrument and the token becomes a Void Token. The Trust continues for a limited wind-up purpose to collect any residual proceeds; if the operative instrument is later set aside by a court, the Trust is reinstated as of the original recording date
 
 ### UCC Article 12 (Section 11)
 
@@ -59,7 +60,9 @@ See [CHANGELOG.md](CHANGELOG.md) for the complete history. Major versions:
 
 | Version | Highlights |
 |---------|------------|
-| **4.2** | Anti-merger hardening, production-readiness: sworn-affidavit form for county recording, situs-law preservation, real-property savings clause |
+| **4.3** | Involuntary loss of Property title: automatic dissolution on tax sale, foreclosure, eminent domain, etc.; bearer-token wind-up authority and proceeds entitlement; judicial reinstatement on operative-instrument reversal |
+| **4.2** | Production-readiness hardening: sworn-affidavit form for county recording, situs-law preservation, real-property savings clause |
+| **4.1** | Anti-merger hardening: Beneficial Interest Holders, Springing Continuity Trustee |
 | **4.0** | Alternative dissolution (recovery mechanism), Smart Wallet support, UCC Article 12 integration |
 | **3.7** | UCC Article 12 as primary framework |
 | **3.0** | Self-custody redesign, onchain-first architecture |
