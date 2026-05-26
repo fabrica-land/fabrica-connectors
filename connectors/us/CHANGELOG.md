@@ -9,7 +9,7 @@
 - **Partial transfers (Section 10.5.1):** An Operative Instrument affecting less than the entirety of the Property does not dissolve the Trust. The Trust continues with respect to the remaining Property; partial-transfer proceeds flow to the Beneficiary under Section 10.7
 - **Wind-up via bearer-token mechanic (Section 10.5.2):** Notwithstanding the dissolution, the Trust continues in existence for the limited purpose of pursuing claims and collecting/distributing residual proceeds (tax-sale surplus, condemnation awards, refunds, insurance recoveries). The person who from time to time holds the Property Token has wind-up authority and proceeds entitlement — as a representative authorized under the Agreement, not as a successor Trustee — and a Transfer of the Property Token during the wind-up period passes both. Fallback: if the Token is destroyed or irretrievable, the last identifiable onchain holder retains the authority
 - **Pre-recording and challenge rights preserved (Section 10.5.3):** Section 10.5 does not impair the Beneficiary's or any interested party's rights to redeem the Property before recording or to challenge the validity of the Operative Instrument in court
-- **Reinstatement on judicial reversal (Section 10.5.4):** If a court sets aside or vacates the recording of the Operative Instrument and record title is restored to the Trust, the Trust is reinstated as of the date of the original recording and is deemed to have continued in existence without interruption. Any Transfers of the Property Token during the void period are given full effect under Section 7, and the then-current onchain holder becomes the Beneficiary upon reinstatement. The bearer-token mechanic lets a buyer of the Void Token (e.g., a speculator who pays for the residual recovery option) end up as the post-reinstatement Beneficiary if they prevail in setting aside the Operative Instrument
+- **Reinstatement on judicial reversal (Section 10.5.4):** If a court sets aside or vacates the recording of the Operative Instrument and record title is restored to the Trust, the Trust is reinstated as of the date of the original recording and is deemed to have continued in existence without interruption. Any Transfers of the Property Token during the void period are given full effect under Section 7, and the then-current onchain holder becomes the Beneficiary upon reinstatement. If the Property Token has been destroyed or is otherwise irretrievable at the time of reinstatement, Beneficiary identity falls back to the last identifiable onchain holder (parallel to the wind-up fallback in Section 10.5.2). The bearer-token mechanic lets a buyer of the Void Token (e.g., a speculator who pays for the residual recovery option) end up as the post-reinstatement Beneficiary if they prevail in setting aside the Operative Instrument
 
 **Cross-reference and definition updates supporting Section 10.5:**
 
@@ -22,7 +22,7 @@
 - **Section 10.6.1 (common provisions for AD Events):** Restructured into three sentences: (i) the Property Token becomes a Void Token upon recording; (ii) a Void Token does not convey beneficial ownership of the Property; (iii) in Section 10.5 cases, the Void Token additionally carries the wind-up and reinstatement-eligibility rights set out in Sections 10.5.2 and 10.5.4, each travelling with the Void Token through subsequent Transfers
 - **Section 10.6 common provisions (subsections 1, 2, 4):** Updated to reference both the Deed of Distribution (for Sections 10.2–10.4) and the Operative Instrument (for Section 10.5) where the legal effect attaches
 
-IPFS CID: `bafkreih4uah66o6vpahl3dg66ehhlrct7lyxdmxwn6rpna6qigw2qfkqka`
+IPFS CID: `<TBD>`
 
 #### v4.2
 
@@ -131,7 +131,7 @@ IPFS CID: `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue`
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
-| 4.3     | `bafkreih4uah66o6vpahl3dg66ehhlrct7lyxdmxwn6rpna6qigw2qfkqka` | https://ipfs.fabrica.land/ipfs/bafkreih4uah66o6vpahl3dg66ehhlrct7lyxdmxwn6rpna6qigw2qfkqka |
+| 4.3     | `<TBD>`                                          | `<TBD>`                                                      |
 | 4.2     | `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi` | https://ipfs.fabrica.land/ipfs/bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi |
 | 4.0     | `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue` | https://ipfs.fabrica.land/ipfs/bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue |
 | 3.7     | `bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4` | https://ipfs.fabrica.land/ipfs/bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4 |
