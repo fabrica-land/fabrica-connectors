@@ -8,7 +8,7 @@ This repository contains the operating agreements used to create entity and non-
 
 | Jurisdiction | Connector | Status |
 |--------------|-----------|--------|
-| United States | [Fabrica Trust Agreement](connectors/us/) | Active (v4.2) |
+| United States | [Fabrica Trust Agreement](connectors/us/) | Active (v4.3) |
 
 ## The Fabrica Trust
 
@@ -20,7 +20,8 @@ The [Fabrica Trust Agreement](connectors/us/us-trust-agreement.md) is a nominee 
 - No third-party involvement in or control over the trust
 - Works even if Fabrica disappears — the legal mechanism is self-contained
 
-**v4.2 highlights:**
+**v4.3 highlights:**
+- Involuntary loss of title (§10.5): automatic dissolution when record title leaves the Trust by external operation of law (tax sale, foreclosure, eminent domain, etc.); bearer-token wind-up authority and proceeds entitlement; judicial reinstatement if the operative instrument is later set aside
 - Two-tier recovery mechanism for lost keys or death (no stuck assets)
 - Anti-merger hardening (Beneficial Interest Holders, springing Continuity Trustee)
 - Production-readiness: sworn-affidavit form for universal county-recorder acceptance

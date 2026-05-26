@@ -1,6 +1,29 @@
 # Changelog
 ### Fabrica Trust
 
+#### v4.3
+
+**Involuntary loss of Property title (new Section 10.5, related cross-reference updates):** New Alternative Dissolution Event covering the case where record title leaves the Trust by external operation of law without Trustee or Beneficiary consent — tax sale, judicial or nonjudicial foreclosure, eminent domain, escheat, or court-confirmed adverse possession. Closes a documented gap in v4.2: previously, the Trust would lose its corpus to such events but the agreement was silent on termination, leaving the Property Token alive onchain with no clean dissolution mechanism.
+
+- **Automatic dissolution (Section 10.5):** When the entirety of the Property is transferred out of the Trust by operation of law through an "Operative Instrument" executed by a third party (tax collector, sheriff, condemning authority, etc.), the Trust dissolves automatically upon recording of the Operative Instrument and the Property Token becomes a Void Token. No Deed of Distribution and no Trustee action required. The recorded Operative Instrument substitutes for both the Section 1.2(a) condition precedent and the Section 10.1.2 cryptographic signature requirement. Examples enumerated include tax deed, sheriff's deed, trustee's deed upon sale, foreclosure instruments (judicial or nonjudicial), order of condemnation, escheat, and adverse possession adjudications
+- **Partial transfers (Section 10.5.1):** An Operative Instrument affecting less than the entirety of the Property does not dissolve the Trust. The Trust continues with respect to the remaining Property; partial-transfer proceeds flow to the Beneficiary under Section 10.7
+- **Wind-up via bearer-token mechanic (Section 10.5.2):** Notwithstanding the dissolution, the Trust continues in existence for the limited purpose of pursuing claims and collecting/distributing residual proceeds (tax-sale surplus, condemnation awards, refunds, insurance recoveries). The person who from time to time holds the Property Token has wind-up authority and proceeds entitlement — as a representative authorized under the Agreement, not as a successor Trustee — and a Transfer of the Property Token during the wind-up period passes both. Fallback: if the Token is destroyed or irretrievable, the last identifiable onchain holder retains the authority
+- **Pre-recording and challenge rights preserved (Section 10.5.3):** Section 10.5 does not impair the Beneficiary's or any interested party's rights to redeem the Property before recording or to challenge the validity of the Operative Instrument in court
+- **Reinstatement on judicial reversal (Section 10.5.4):** If a court sets aside or vacates the recording of the Operative Instrument and record title is restored to the Trust, the Trust is reinstated as of the date of the original recording and is deemed to have continued in existence without interruption. Any Transfers of the Property Token during the void period are given full effect under Section 7, and the then-current onchain holder becomes the Beneficiary upon reinstatement. If the Property Token has been destroyed or is otherwise irretrievable at the time of reinstatement, Beneficiary identity falls back to the last identifiable onchain holder (parallel to the wind-up fallback in Section 10.5.2). The bearer-token mechanic lets a buyer of the Void Token (e.g., a speculator who pays for the residual recovery option) end up as the post-reinstatement Beneficiary if they prevail in setting aside the Operative Instrument
+
+**Cross-reference and definition updates supporting Section 10.5:**
+
+- **Section 1.2:** "title to the Property will remain in the Trust until such time as either the then-present Beneficiary distributes the Property out of the Trust, or record title is transferred out of the Trust by operation of law as described in Section 10.5"
+- **Section 2.22 (Alternative Dissolution Event):** Definition extended to include Section 10.5 dissolutions
+- **Section 2.25 (Void Token):** Refined to "A Void Token confers no beneficial ownership rights, no Owner Rights, and no interest in the Property" (dropped "or the Trust" since the Trust may survive for the limited wind-up purpose under Section 10.5.2), with explicit carve-out for the rights granted under Sections 10.5.2 and 10.5.4. Also dropped "permanently" from the opening sentence ("permanently dissociated" → "dissociated"), since dissociation under Section 10.5 is reversible if the Operative Instrument is later set aside under Section 10.5.4
+- **Section 4.2:** Action-validity exception list extended to include Section 10.5
+- **Section 8.2:** Trustee reliance list extended; added new clause (e) authorizing the Trustee to rely on a recorded copy of the Operative Instrument
+- **Former Sections 10.5/10.6/10.7 renumbered to 10.6/10.7/10.8** to accommodate the new Section 10.5. No incoming cross-references to those sections elsewhere in the document, so the renumbering is contained
+- **Section 10.6.1 (common provisions for AD Events):** Restructured into three sentences: (i) the Property Token becomes a Void Token upon recording; (ii) a Void Token does not convey beneficial ownership of the Property; (iii) in Section 10.5 cases, the Void Token additionally carries the wind-up and reinstatement-eligibility rights set out in Sections 10.5.2 and 10.5.4, each travelling with the Void Token through subsequent Transfers
+- **Section 10.6 common provisions (subsections 1, 2, 4):** Updated to reference both the Deed of Distribution (for Sections 10.2–10.4) and the Operative Instrument (for Section 10.5) where the legal effect attaches
+
+IPFS CID: `bafkreihepeqissghiwo5zplcywrjlr6bfkgag5jm3jt5szxnsm6kptcpue`
+
 #### v4.2
 
 **Production-readiness hardening (Sections 10.2, 10.3, 11.6, 12.3–12.4):** Operational and recordation changes to support deed-out actions at scale across multiple jurisdictions:
@@ -108,6 +131,7 @@ IPFS CID: `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue`
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| 4.3     | `bafkreihepeqissghiwo5zplcywrjlr6bfkgag5jm3jt5szxnsm6kptcpue` | https://ipfs.fabrica.land/ipfs/bafkreihepeqissghiwo5zplcywrjlr6bfkgag5jm3jt5szxnsm6kptcpue |
 | 4.2     | `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi` | https://ipfs.fabrica.land/ipfs/bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi |
 | 4.0     | `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue` | https://ipfs.fabrica.land/ipfs/bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue |
 | 3.7     | `bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4` | https://ipfs.fabrica.land/ipfs/bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4 |
