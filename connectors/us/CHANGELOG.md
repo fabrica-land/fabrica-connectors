@@ -22,7 +22,7 @@
 - **Section 10.6.1 (common provisions for AD Events):** Restructured into three sentences: (i) the Property Token becomes a Void Token upon recording; (ii) a Void Token does not convey beneficial ownership of the Property; (iii) in Section 10.5 cases, the Void Token additionally carries the wind-up and reinstatement-eligibility rights set out in Sections 10.5.2 and 10.5.4, each travelling with the Void Token through subsequent Transfers
 - **Section 10.6 common provisions (subsections 1, 2, 4):** Updated to reference both the Deed of Distribution (for Sections 10.2–10.4) and the Operative Instrument (for Section 10.5) where the legal effect attaches
 
-IPFS CID: `<TBD>`
+IPFS CID: `bafkreig7mdx4ycynv7zlxoddecsrpbx3igo2hpl3rhkez6okyzncdc6oti`
 
 #### v4.2
 
@@ -131,7 +131,7 @@ IPFS CID: `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue`
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
-| 4.3     | `<TBD>`                                          | `<TBD>`                                                      |
+| 4.3     | `bafkreig7mdx4ycynv7zlxoddecsrpbx3igo2hpl3rhkez6okyzncdc6oti` | https://ipfs.fabrica.land/ipfs/bafkreig7mdx4ycynv7zlxoddecsrpbx3igo2hpl3rhkez6okyzncdc6oti |
 | 4.2     | `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi` | https://ipfs.fabrica.land/ipfs/bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi |
 | 4.0     | `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue` | https://ipfs.fabrica.land/ipfs/bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue |
 | 3.7     | `bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4` | https://ipfs.fabrica.land/ipfs/bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4 |
