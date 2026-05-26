@@ -15,14 +15,14 @@
 
 - **Section 1.2:** "title to the Property will remain in the Trust until such time as either the then-present Beneficiary distributes the Property out of the Trust, or record title is transferred out of the Trust by operation of law as described in Section 10.5"
 - **Section 2.22 (Alternative Dissolution Event):** Definition extended to include Section 10.5 dissolutions
-- **Section 2.25 (Void Token):** Refined to "A Void Token confers no beneficial ownership rights, no Owner Rights, and no interest in the Property" (dropped "or the Trust" since the Trust may survive for the limited wind-up purpose under Section 10.5.2), with explicit carve-out for the rights granted under Sections 10.5.2 and 10.5.4
+- **Section 2.25 (Void Token):** Refined to "A Void Token confers no beneficial ownership rights, no Owner Rights, and no interest in the Property" (dropped "or the Trust" since the Trust may survive for the limited wind-up purpose under Section 10.5.2), with explicit carve-out for the rights granted under Sections 10.5.2 and 10.5.4. Also dropped "permanently" from the opening sentence ("permanently dissociated" → "dissociated"), since dissociation under Section 10.5 is reversible if the Operative Instrument is later set aside under Section 10.5.4
 - **Section 4.2:** Action-validity exception list extended to include Section 10.5
 - **Section 8.2:** Trustee reliance list extended; added new clause (e) authorizing the Trustee to rely on a recorded copy of the Operative Instrument
 - **Former Sections 10.5/10.6/10.7 renumbered to 10.6/10.7/10.8** to accommodate the new Section 10.5. No incoming cross-references to those sections elsewhere in the document, so the renumbering is contained
 - **Section 10.6.1 (common provisions for AD Events):** Restructured into three sentences: (i) the Property Token becomes a Void Token upon recording; (ii) a Void Token does not convey beneficial ownership of the Property; (iii) in Section 10.5 cases, the Void Token additionally carries the wind-up and reinstatement-eligibility rights set out in Sections 10.5.2 and 10.5.4, each travelling with the Void Token through subsequent Transfers
 - **Section 10.6 common provisions (subsections 1, 2, 4):** Updated to reference both the Deed of Distribution (for Sections 10.2–10.4) and the Operative Instrument (for Section 10.5) where the legal effect attaches
 
-IPFS CID: `bafkreig7mdx4ycynv7zlxoddecsrpbx3igo2hpl3rhkez6okyzncdc6oti`
+IPFS CID: `<TBD>`
 
 #### v4.2
 
@@ -131,7 +131,7 @@ IPFS CID: `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue`
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
-| 4.3     | `bafkreig7mdx4ycynv7zlxoddecsrpbx3igo2hpl3rhkez6okyzncdc6oti` | https://ipfs.fabrica.land/ipfs/bafkreig7mdx4ycynv7zlxoddecsrpbx3igo2hpl3rhkez6okyzncdc6oti |
+| 4.3     | `<TBD>`                                          | `<TBD>`                                                      |
 | 4.2     | `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi` | https://ipfs.fabrica.land/ipfs/bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi |
 | 4.0     | `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue` | https://ipfs.fabrica.land/ipfs/bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue |
 | 3.7     | `bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4` | https://ipfs.fabrica.land/ipfs/bafkreielajiqjyqjwofuxaep6heoxx6ag4ifum7u6mafvkkhuif2dcqvc4 |
