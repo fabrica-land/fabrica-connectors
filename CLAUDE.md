@@ -1,5 +1,9 @@
 # Style Guide
 
+---
+> **Canonical comms rules:** facts, approved claims, metrics phrasings, naming, and legal red lines for ALL external communication live in `fabrica-land/brand` under `comms/` (`facts.md`, `voice-core.md`, `canonical-ownership.md`). This file holds only legal/trust-representation-specific rules. On any conflict, brand `comms/` wins. (Introduced with fabrica-land/brand PR #5.)
+---
+
 ## Terminology
 
 - **onchain** — one word, no hyphen. Not "on-chain."
