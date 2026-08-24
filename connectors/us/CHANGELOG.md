@@ -1,6 +1,78 @@
 # Changelog
 ### Fabrica Trust
 
+#### v4.4
+
+**Beneficial-interest characterization, financed-purchase and succession mechanics, unsolicited-transfer doctrine, and a full UCC Article 9/12 build-out.** v4.4 states, for the first time in the instrument, what the token holder's interest *is* as a matter of property law (personal property, in the American land-trust tradition), and builds the transfer, lending, succession, and disclaimer rules on top of that foundation. It hardens the trust against state-law validity attacks (Texas passive-trust and merger doctrines), closes the financed-purchase ownership gap, gives holders a self-help disclaimer against hostile transfers, and adds a non-operative plain-language summary. The instrument roughly triples in length; no load-bearing v4.3 provision is weakened.
+
+**Ownership & Transfers:**
+
+- **Beneficial interest declared personal property (new Section 1.4, new definitions 2.27–2.28, recital):** The entire beneficial interest in the Trust is personal property in the land-trust tradition, not an estate in land. It passes by assignment under Section 7 without a deed; the token is its authoritative record and instrument of transfer. The Property itself remains real property governed only by real-property law (Section 11.6, unchanged)
+- **Trust corpus sealed at creation (new Section 1.5):** What the trust holds is fixed at the Trust's creation — the described Property together with its legal appurtenances, accessions, and proceeds, and nothing else. While the property is operated through the token, no beneficiary direction, trustee act, or third-party instrument may substitute, augment, or partially convey the corpus, and the Trustee must refuse any standalone addition, so a stranger cannot deed an unwanted, liability-laden asset into the trust. The only exceptions are mandatory law and the recorded events of Section 10; the seal releases entirely at dissolution, leaving the former holder free to direct the distribution deed, including dividing rights among multiple grantees
+- **Free alienability (Section 6.2):** The beneficial interest is freely alienable, not subject to any spendthrift restraint, and reachable by the Beneficiary's creditors as applicable law provides
+- **Occupancy right (new Section 6.4):** The Beneficiary has the right, but never the obligation, to occupy the Property as a principal residence rent-free; the right travels with the beneficial interest and vests in no named person
+- **Unauthorized transfers broadened (Section 7.5.1):** A transfer is unauthorized, and moves no beneficial ownership, whenever it is not made or authorized by the present Beneficiary, expressly including misuse of a previously granted operator approval or delegation, not only key theft
+- **Persons dealing with the Trustee (new Section 8.3):** A good-faith purchaser or lender taking under a facially compliant deed from the apparent Trustee need not inquire into chain state, token provenance, or Trustee authority; the deed is valid and the remedy for any defect runs against the wrongdoer and the proceeds
+- **Active-trust duties enumerated (Section 8.1, retitled Trustee Duties):** The Trustee's affirmative powers and duties are stated expressly (hold, preserve, and defend title; execute and record instruments; verify conditions precedent; convey only on direction), making the trust demonstrably active
+
+**Lending & Designations:**
+
+- **Financed-purchase designation rule (new Section 7.3(c)):** Beneficial ownership can change hands while the token remains in a lending pool, escrow, or other smart-contract facility, but only through a "Qualified Designation" supported by the designated owner's assent. A bare naming of a borrower-of-record, by anyone, transfers nothing and imposes no tax, debt, or liability on the person named
+- **Tiered assent safe harbor (Section 7.3(c)(2)):** Any signed record manifesting assent qualifies; a record carrying four stated content elements is conclusively sufficient; a record anchored by a cryptographic commitment in the originating operation is presumed authentic. Assent may be captured on-chain or off-chain (for example, a checkout confirmation), and no platform is required to keep or produce records
+- **Collateral is the token, never the land (Section 11.2):** The collateral in any token financing is the Property Token and, where expressly granted, the beneficial interest; no mortgage or lien on the Property itself is created. A Confirmed Transaction and its signed records may form an authenticated security agreement under UCC Section 9-203; the debtor's redemption right under Section 9-623 is preserved and enforcement follows Sections 9-610 through 9-624
+
+**Succession & Death:**
+
+- **Succession follows lawful control (new Section 7.6):** On a Beneficiary's death the beneficial interest passes as personal property under the law governing the estate, and the person who lawfully succeeds to control of the wallet (the "Key Successor") may keep operating immediately, without a court order as a condition of continuity. A person who obtains access by theft is not a Key Successor
+- **No ancillary situs probate (Section 7.6.2):** Because the beneficial interest is intangible personal property, its succession follows the holder's domicile law; the recording of probate proof remains only an evidentiary condition of deeding the Property out of the Trust, not an administration of the interest. The instrument makes no claim of automatic probate avoidance
+- **Lost-keys fallback narrowed (Sections 10.3, 10.4):** The recorded-probate dissolution path now applies solely where no Key Successor has lawful key access; competing-successor claims are resolved by a court
+
+**Unsolicited Transfers & Disclaimer:**
+
+- **Presumptive vesting with a right to disclaim (new Section 7.7):** A token sent to a wallet without the recipient's agreement vests beneficial ownership presumptively and immediately, so every ownership right is usable at once, but the vesting is defeasible. The recipient bears the incidents of ownership (including tax) only until they refuse
+- **On-chain disclaimer (Section 7.7.2):** A recipient may refuse the entire interest by sending the token back (the ordinary disclaimer) or by burning it, with a recorded-refusal fallback where neither is possible. A valid disclaimer relates back to the moment of receipt, to the maximum extent applicable law permits
+- **Acceptance is conclusive (Section 7.7.4):** Any voluntary exercise of ownership, or express acceptance, is acceptance, confirmed retroactively to receipt. A listing that is cancelled or expires without a sale is not acceptance. A transfer the recipient solicited or agreed to is accepted on receipt, with no disclaimer right
+- **Recovery after a disclaimer burn (new Section 10.2.7):** Where a recipient burns an unwanted token, the original holder can restore control of the Property through the recorded, contestable Notice procedure, with additional sworn attestations and notice to the burner
+
+**UCC Articles 9/12:**
+
+- **Controllable-electronic-record status (Section 11.1):** The Property Token is a controllable electronic record for so long as it is capable of being subjected to control under UCC Article 12 (as it is intended and expected to be at all times, save the fractionalized configuration Section 6.3 describes); the classification is statutory, and no custody, holding, or other arrangement varies it. The prior rule that suspended that status inside an intermediated securities-account arrangement is removed. California is expressly designated as the token's jurisdiction under UCC Section 12-107(c)(1)
+- **Custodial holding (Section 11.3):** Notwithstanding the default vesting rules (Sections 1.3, 2.3, 7.1, 7.3(a)), a person who holds the token as custodian for another — directly or through tiers of sub-custodians — acquires no beneficial interest by reason of that holding; the beneficial interest vests in the person for whom the token is ultimately held, as the custody arrangement and the custodian's records identify that person. A transfer of that person's rights against the custodian transfers the beneficial interest on the same terms as a token transfer, the custody agreement plus the transfer record serving as the Section 7.3(b)(ii) assignment instrument. Where the token is held for more than one person, their proportions and internal governance are those the custody arrangement and the custodian's records provide. The custodian-customer relationship, and whether any person has control of the token, are left to the custody arrangement and to law other than the Agreement
+- **Take-free mechanism made explicit (Section 11.4):** The qualifying-purchaser and protected-secured-party protections are set out in layers, declaring a trust-created power to transfer the beneficial interest — given effect as law other than Article 12 under Section 12-104(f), keyed to the Section 12-104(d) power-to-transfer concept and operating alongside the purchaser's Section 12-104(d)–(e) rights in the token itself — an independent born-defeasance of prior claims, a control predicate for secured parties, and a single "Adverse Claim" notice standard (Section 12-102(a)(2))
+- **Beneficial interest classified (new Section 11.7):** The beneficial interest is a "general intangible" under UCC Section 9-102(a)(42), of which the token is the authoritative record; a security interest in it is governed by Article 9
+- **Two-lane priority framework (new Section 11.8):** Interests in the Property (the land lane) are governed always by real-property law; interests in the token and beneficial interest (the token lane) by this Agreement, trust law, and UCC Articles 9 and 12; a recorded instrument is the crossing gate between them
+- **Fallback without Article 12 (new Section 11.9):** Where no Article 12 enactment applies, the token stays fully operative on the trust-law assignment floor; only the third-party take-free layer varies
+
+**Texas & State Doctrine:**
+
+- **Passive/dry-trust defense (Section 8.1 closing paragraph):** The instrument states that the Trust is an active trust under Texas Property Code Section 112.032(b) and similar statutes, resting on the Trustee's enumerated duties in relation to the Property
+- **Merger and perpetuities (Sections 12.5, 12.6):** A formation-instant recital confirms that legal and equitable interests are never united in one person (Texas Property Code Section 112.034(a) and (b)); construction, reformation, and any Trustee suspension take effect immediately before any merger event; a perpetuities savings clause with a defined termination date is added
+- **Homestead and spousal joinder (new Section 5.2.3):** The Grantor represents that the Property is not homestead, or that every required spousal joinder (including under Texas Family Code Section 5.001 and Texas Property Code Section 41.0021(c)) appears on the recorded deed
+- **Occupancy for homestead and Garn-St Germain (Section 6.4):** The occupancy right is drafted to support Texas Property Code Section 41.0021 homestead-through-trust treatment and the Garn-St Germain inter vivos trust transfer protection, without asserting that any exemption applies to a given property
+
+**Recordable Instruments:**
+
+- **Failed conveyance into the Trust (Section 10.5):** A final order or instrument establishing that the deed into the Trust was void, avoided, or failed to vest title (for example, for a missing spousal joinder) is an Operative Instrument that dissolves the Trust; a corrective instrument that confirms title remains in the Trust is not
+- **Notice of Lost Token Control content (Section 2.23) and delivery (Section 10.2.1):** The Notice now carries the full legal description and parcel number, the Trust Name as vested, the deed-in reference, and indexing instructions; delivery adds the assessee mailing address and a no-situs-address alternative, notice to secured parties of record, an on-chain notice leg, and a certified-mail deposit-is-delivery rule
+- **Contest channels (Section 10.2.2):** A contest is effective not only when recorded but also when a recorder refuses a tendered instrument or when noticed litigation is delivered to the Trustee and claimant
+- **Deed recitals (Sections 3.1.2, 10.1.2):** The conveyance deed names the grantee using the Trust Name verbatim; the distribution deed shall (not should) carry the cryptographic-signature statement or its stated substitute and name the grantee
+
+**Tax:**
+
+- **Grantor-trust hooks (Section 12.7):** The Beneficiary is treated as the owner of the Property to the maximum extent applicable tax law permits, with the intended Code hooks stated (Section 678(a)(1) power to redeem and take, and purchaser-as-grantor treatment under Treasury Regulation Section 1.671-2(e)(3))
+- **Honesty on limits (Section 12.7):** The attribution does not displace mandatory assessment, collection, or lien rules; a foreign holder may make the Trust a separate taxpayer (Section 672(f)); ownership changes without a recorded deed may be reportable and are not excused
+- **Disclaimer-window attribution (Section 12.7):** During the disclaimable period the presumptive transferee is the tax owner; a valid disclaimer relates the attribution back to the transferor to the maximum extent tax law permits
+
+**Drafting & Clarity:**
+
+- **Plain-language summary (new "How This Trust Works"):** A non-operative summary box precedes the recitals; it creates no rights and yields to the operative text on any conflict
+- **Onchain determinability principle (new Section 4.3):** Beneficial ownership and the validity of token operations are determinable from the blockchain record read with this Agreement, subject to mandatory law, recorded instruments, and the specific records the Agreement itself makes relevant; operations valid on the record are conclusive in favor of good-faith reliant parties
+- **Digital execution and electronic records (Sections 4.1, 12.8):** A general digital-execution-and-acceptance rule confirms that parties become bound through the objective mechanics of the Agreement with no paper counterpart; electronic records and signatures satisfy applicable writing requirements under E-SIGN and UETA
+- **Revocability simplified (Section 3.2):** The Trust is revocable by the Grantor until the token is minted and irrevocable afterward, a single objective event replacing the prior beneficiary-specification test
+- **Record-title construction (Section 9, retitled):** A construction rule reads title held "in the Trust" as title held by the Trustee in a fiduciary capacity where local law treats a trust as a relationship, without altering any recorded vesting
+
+IPFS CID: `bafkreih72odii5wcwluejt67is5q4zgdqiwqabzkg4pr5vys6o77pgujw4`
+
 #### v4.3
 
 **Involuntary loss of Property title (new Section 10.5, related cross-reference updates):** New Alternative Dissolution Event covering the case where record title leaves the Trust by external operation of law without Trustee or Beneficiary consent — tax sale, judicial or nonjudicial foreclosure, eminent domain, escheat, or court-confirmed adverse possession. Closes a documented gap in v4.2: previously, the Trust would lose its corpus to such events but the agreement was silent on termination, leaving the Property Token alive onchain with no clean dissolution mechanism.
@@ -131,6 +203,7 @@ IPFS CID: `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue`
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| 4.4     | `bafkreih72odii5wcwluejt67is5q4zgdqiwqabzkg4pr5vys6o77pgujw4` | https://ipfs.fabrica.land/ipfs/bafkreih72odii5wcwluejt67is5q4zgdqiwqabzkg4pr5vys6o77pgujw4 |
 | 4.3     | `bafkreihepeqissghiwo5zplcywrjlr6bfkgag5jm3jt5szxnsm6kptcpue` | https://ipfs.fabrica.land/ipfs/bafkreihepeqissghiwo5zplcywrjlr6bfkgag5jm3jt5szxnsm6kptcpue |
 | 4.2     | `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi` | https://ipfs.fabrica.land/ipfs/bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi |
 | 4.0     | `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue` | https://ipfs.fabrica.land/ipfs/bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue |

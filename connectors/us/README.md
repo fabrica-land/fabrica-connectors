@@ -3,7 +3,7 @@
 A legal framework for operating on real estate using smart contracts by holding title in a nominee trust.
 
 > **Quick links:**
-> - [Trust Agreement (v4.3)](us-trust-agreement.md) — The current version
+> - [Trust Agreement (v4.4)](us-trust-agreement.md) — The current version
 > - [Changelog](CHANGELOG.md) — Version history and detailed changes
 
 ## Overview
@@ -60,6 +60,7 @@ See [CHANGELOG.md](CHANGELOG.md) for the complete history. Major versions:
 
 | Version | Highlights |
 |---------|------------|
+| **4.4** | Beneficial interest as personal property (land-trust tradition); financed-purchase Qualified Designation; succession via lawful key control; unsolicited-transfer disclaimer; full UCC Article 9/12 build-out; Texas passive-trust and merger hardening |
 | **4.3** | Involuntary loss of Property title: automatic dissolution on tax sale, foreclosure, eminent domain, etc.; bearer-token wind-up authority and proceeds entitlement; judicial reinstatement on operative-instrument reversal |
 | **4.2** | Production-readiness hardening: sworn-affidavit form for county recording, situs-law preservation, real-property savings clause |
 | **4.1** | Anti-merger hardening: Beneficial Interest Holders, Springing Continuity Trustee |

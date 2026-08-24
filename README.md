@@ -8,7 +8,7 @@ This repository contains the operating agreements used to create entity and non-
 
 | Jurisdiction | Connector | Status |
 |--------------|-----------|--------|
-| United States | [Fabrica Trust Agreement](connectors/us/) | Active (v4.3) |
+| United States | [Fabrica Trust Agreement](connectors/us/) | Active (v4.4) |
 
 ## The Fabrica Trust
 
@@ -20,13 +20,13 @@ The [Fabrica Trust Agreement](connectors/us/us-trust-agreement.md) is a nominee 
 - No third-party involvement in or control over the trust
 - Works even if Fabrica disappears — the legal mechanism is self-contained
 
-**v4.3 highlights:**
-- Involuntary loss of title (§10.5): automatic dissolution when record title leaves the Trust by external operation of law (tax sale, foreclosure, eminent domain, etc.); bearer-token wind-up authority and proceeds entitlement; judicial reinstatement if the operative instrument is later set aside
-- Two-tier recovery mechanism for lost keys or death (no stuck assets)
-- Anti-merger hardening (Beneficial Interest Holders, springing Continuity Trustee)
-- Production-readiness: sworn-affidavit form for universal county-recorder acceptance
-- UCC Article 12 integration for secured lending
-- Smart Wallet support (multisig, account abstraction)
+**v4.4 highlights:**
+- Beneficial interest declared personal property in the land-trust tradition (§1.4): it passes by token assignment under §7, no deed required
+- Financed-purchase "Qualified Designation" (§7.3(c)): beneficial ownership vests in the buyer at settlement even while the token sits in a lending pool or escrow
+- Succession follows lawful key control (§7.6): a Key Successor operates immediately, with no ancillary situs probate
+- Unsolicited-transfer doctrine (§7.7): presumptive defeasible vesting with an onchain disclaimer (return or burn), retroactive to receipt
+- Full UCC Article 9/12 build-out (§§11.1–11.9): collateral is the token, never the land; two-lane priority; fallback where Article 12 is not enacted
+- Texas hardening (active-trust duties, anti-merger, homestead/occupancy) and a plain-language "How This Trust Works" summary
 
 ## Repository Structure
 
