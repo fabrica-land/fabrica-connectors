@@ -1,7 +1,5 @@
 # Fabrica Trust Agreement
 
-> **PROPOSED v4.4 (2026-07-10, revised 2026-07-15) — OPEN FOR COMMENT.** This is a proposed revision of the Fabrica Trust Agreement, published for public and expert review. It is NOT yet adopted: existing trusts remain governed by the version referenced by their Property Token, and no new trust uses this text until adoption is announced. Comments and critique are welcome on the pull request. This banner will be removed at adoption (the Token ID hashes the agreement text).
-
 This Trust Agreement (this "**Agreement**") is entered into by the Grantor through the creation of a Property Token. The identifying information of this trust (the "**Trust**") may be found in the Property Token to which this Agreement is attached.
 
 ### How This Trust Works (Non-Operative Summary)

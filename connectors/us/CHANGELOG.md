@@ -1,7 +1,7 @@
 # Changelog
 ### Fabrica Trust
 
-#### v4.4 (proposed — open for comment)
+#### v4.4
 
 **Beneficial-interest characterization, financed-purchase and succession mechanics, unsolicited-transfer doctrine, and a full UCC Article 9/12 build-out.** v4.4 states, for the first time in the instrument, what the token holder's interest *is* as a matter of property law (personal property, in the American land-trust tradition), and builds the transfer, lending, succession, and disclaimer rules on top of that foundation. It hardens the trust against state-law validity attacks (Texas passive-trust and merger doctrines), closes the financed-purchase ownership gap, gives holders a self-help disclaimer against hostile transfers, and adds a non-operative plain-language summary. The instrument roughly triples in length; no load-bearing v4.3 provision is weakened.
 
@@ -71,7 +71,7 @@
 - **Revocability simplified (Section 3.2):** The Trust is revocable by the Grantor until the token is minted and irrevocable afterward, a single objective event replacing the prior beneficiary-specification test
 - **Record-title construction (Section 9, retitled):** A construction rule reads title held "in the Trust" as title held by the Trustee in a fiduciary capacity where local law treats a trust as a relationship, without altering any recorded vesting
 
-IPFS CID: (pending publication)
+IPFS CID: `bafkreih72odii5wcwluejt67is5q4zgdqiwqabzkg4pr5vys6o77pgujw4`
 
 #### v4.3
 
@@ -203,6 +203,7 @@ IPFS CID: `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue`
 
 | Version | IPFS CID                                         | HTTP Link                                                    |
 | ------- | ------------------------------------------------ | ------------------------------------------------------------ |
+| 4.4     | `bafkreih72odii5wcwluejt67is5q4zgdqiwqabzkg4pr5vys6o77pgujw4` | https://ipfs.fabrica.land/ipfs/bafkreih72odii5wcwluejt67is5q4zgdqiwqabzkg4pr5vys6o77pgujw4 |
 | 4.3     | `bafkreihepeqissghiwo5zplcywrjlr6bfkgag5jm3jt5szxnsm6kptcpue` | https://ipfs.fabrica.land/ipfs/bafkreihepeqissghiwo5zplcywrjlr6bfkgag5jm3jt5szxnsm6kptcpue |
 | 4.2     | `bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi` | https://ipfs.fabrica.land/ipfs/bafkreihkphcet3ncjlmd7kv4wgc32ot3mnkpudavtydnwt4hdaa3q5z6mi |
 | 4.0     | `bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue` | https://ipfs.fabrica.land/ipfs/bafkreigc4ckzv5agna3tohs5tcqvvze6wgu7oocj5ecpqcg3gxaspyxpue |
