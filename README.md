@@ -2,7 +2,7 @@
 
 **Connectors** are legal frameworks that bridge real property rights and their digital representations as onchain assets.
 
-This repository contains the operating agreements used to create entity and non-entity wrappers that hold and represent real property rights onchain. The goal: owning the token means owning the property, with no intermediaries, notifications, or filings required after setup.
+This repository contains the operating agreements used to create entity and non-entity wrappers that hold and represent real property rights onchain. The goal: owning the token means owning the property — delivered as the entire beneficial interest in a trust that holds title, with no intermediaries, notifications, or filings required after setup.
 
 ## Available Connectors
 
@@ -32,12 +32,14 @@ The [Fabrica Trust Agreement](connectors/us/us-trust-agreement.md) is a nominee 
 
 ```
 connectors/
-├── us/
-│   ├── us-trust-agreement.md   # The trust agreement (current version)
-│   ├── CHANGELOG.md            # Version history and changes
-│   └── README.md               # US trust details and key terms
-├── DISCLAIMER.md               # Legal disclaimer
-└── README.md                   # This file
+└── us/
+    ├── us-trust-agreement.md   # The trust agreement (current version)
+    ├── CHANGELOG.md            # Version history and changes
+    └── README.md               # US trust details and key terms
+CLAUDE.md                       # Repository conventions
+DISCLAIMER.md                   # Legal disclaimer
+LICENSE                         # CC0 1.0
+README.md                       # This file
 ```
 
 ## Learn More

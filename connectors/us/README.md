@@ -8,7 +8,7 @@ A legal framework for operating on real estate using smart contracts by holding 
 
 ## Overview
 
-The Fabrica Trust is a nominee trust where the token holder is always the beneficiary (owner). The trust holds a single piece of real property, and owning the Property Token means owning the property — no intermediaries required.
+The Fabrica Trust is a nominee trust where the token holder is always the beneficiary (owner). The trust holds a single piece of real property, and owning the Property Token carries the entire beneficial interest in the trust that holds title — every practical right of ownership, no intermediaries required.
 
 The trust is created under California law but has been used across multiple US states. The design allows the beneficiary to serve as their own trustee, leaving no doubt that the token holder owns the property.
 
@@ -16,7 +16,7 @@ The trust is created under California law but has been used across multiple US s
 
 | Principle | Implementation |
 |-----------|----------------|
-| **Token = Title** | Owning the Property Token confers full beneficial ownership of the property |
+| **Token → Trust → Title** | Owning the Property Token carries the entire beneficial interest in the trust that holds title — every practical right of ownership, one transfer |
 | **Onchain Truth** | The blockchain is the authoritative record of ownership |
 | **No Gatekeepers** | The trust works even if Fabrica disappears |
 | **Self-Custody** | The beneficiary controls their own keys and their own property |
